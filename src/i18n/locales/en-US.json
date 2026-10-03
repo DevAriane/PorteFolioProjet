@@ -1,0 +1,18 @@
+{
+    "app": {
+        "title": "Vue I18n App",
+        "welcome": "Welcome {name}!"
+    },
+    "cart": {
+        "items": "No items | One item | {count} items",
+        "total": "Total:"
+    },
+    "greet": "hello world",
+    "car": "car | cars",
+    "apple": "no apples | one apple | {count} apples",
+    "banana": "no bananas | {n} banana | {n} bananas",
+    "current": "current datetime :",
+    "money": "money",
+    "french": "French",
+    "english": "English"
+}

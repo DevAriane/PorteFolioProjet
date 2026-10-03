@@ -1,0 +1,18 @@
+{
+    "app": {
+        "title": "Application Vue I18n",
+        "welcome": "Bienvenue {name} !"
+    },
+    "cart": {
+        "items": "Aucun article | Un article | {count} articles",
+        "total": "Total :"
+    },
+    "greet": "bonjour le monde",
+    "car": "voiture | voitures",
+    "apple": "aucune pomme | une pomme  | {count} pommes",
+    "banana": "aucune banane | {n} banane | {n} bananes",
+    "current": "Date et heure courante : ",
+    "money": "argent",
+    "french": "Francais",
+    "english": "Anglais"
+}
