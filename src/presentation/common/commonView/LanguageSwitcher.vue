@@ -1,8 +1,10 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n';
-import { SUPPORTED_LOCALES ,type SupportedLocales, loadLanguagaAsync  } from '@/i18n';
+import { SUPPORTED_LOCALES, type SupportedLocales, loadLanguagaAsync } from '@/i18n';
+import FR from '../../../../public/FR.png';
+import GB from '../../../../public/GB.png';
 
-const {locale}=useI18n({useScope:'global'});
+const { locale ,t} = useI18n({ useScope: 'global' });
 
 async function onLanguageChange(event: Event) {
   const target = event.target as HTMLSelectElement
@@ -13,5 +15,21 @@ async function onLanguageChange(event: Event) {
 </script>
 
 <template>
+  <div>
+    <select name="" id="" :value="locale" @change="onLanguageChange">
+      <option value="fr-FR">
+      <div>
+      <img :src="FR" alt="FR">
+      <p>{{ t('french') }}</p>
+      </div>
+      </option>
 
+            <option value="en-US">
+      <div>
+      <img :src="GB" alt="GB">
+      <p>{{t('english')}}</p>
+      </div>
+      </option>
+    </select>
+  </div>
 </template>
