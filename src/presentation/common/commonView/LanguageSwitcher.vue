@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n';
 import { SUPPORTED_LOCALES, type SupportedLocales, loadLanguagaAsync } from '@/i18n';
-import FR from '../../../../public/FR.png';
-import GB from '../../../../public/GB.png';
+import FR from '../../../assets/FR.png';
+import GB from '../../../assets/GB.png';
 
 const { locale ,t} = useI18n({ useScope: 'global' });
 
