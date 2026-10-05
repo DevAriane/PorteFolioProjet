@@ -14,5 +14,9 @@
     "current": "current datetime :",
     "money": "money",
     "french": "French",
-    "english": "English"
+    "english": "English",
+    "home":"Home",
+    "projects":"Projects",
+    "blog":"Blog",
+    "contacts":"Contacts"
 }

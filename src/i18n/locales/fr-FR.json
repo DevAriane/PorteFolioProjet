@@ -14,5 +14,9 @@
     "current": "Date et heure courante : ",
     "money": "argent",
     "french": "Francais",
-    "english": "Anglais"
+    "english": "Anglais",
+        "home":"Accueil",
+    "projects":"Projets",
+    "blog":"Blog",
+    "contacts":"Contacts"
 }
