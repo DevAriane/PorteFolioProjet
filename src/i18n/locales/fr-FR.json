@@ -35,7 +35,61 @@
         "friendly":"Flexible sur le télétravail",
         "getcontact":"Entrer en contact",
                 "downloadscv":"Télécharger le  CV",
-                "scrolltoexplore":"Faites défiler pour en découvrir plus"
+                "scrolltoexplore":"Faites défiler pour en découvrir plus",
+                "experiences_title": "Expérience Professionnelle",
+  "experiences_subtitle": "Mon parcours dans le développement full-stack, mobile et l'assurance qualité (QA).",
+  "exp": {
+    "boolean": {
+      "title": "Développement Full-Stack & Assurance Qualité",
+      "company": "LD GROUP — Douala, Cameroun",
+      "period": "Mai 2026 – Octobre 2026",
+      "role": "Stagiaire Développeuse Full-Stack | Test & QA",
+      "summary": "Tests fonctionnels, identification d’anomalies, déploiement client, amélioration des interfaces et support technique.",
+      "context": "Boolean Pro est une solution web et mobile pour laquelle j’ai participé à la fois aux activités de développement, d’assurance qualité, de déploiement et d’assistance aux utilisateurs.",
+      "missions": [
+        "Réalisation de tests fonctionnels avant chaque mise en production et suivi des anomalies.",
+        "Participation au déploiement de Boolean Pro chez les clients et assistance technique.",
+        "Traduction, adaptation et amélioration ergonomique des interfaces web et mobile."
+      ]
+    },
+    "resandpay": {
+      "title": "Intégration du module de restauration",
+      "company": "KMSS — Douala, Cameroun",
+      "period": "Depuis Mars 2026",
+      "role": "Stagiaire Développeuse Full-Stack Mobile",
+      "summary": "Intégration d’un nouveau microservice de restauration, navigation multi-univers et consommation d'API REST.",
+      "context": "Évolution de l’application ResandPay avec l’intégration d’un nouveau microservice dédié à la restauration au sein de l’écosystème mobile existant.",
+      "missions": [
+        "Intégration du microservice de restauration et des flux de navigation (Universe Switcher).",
+        "Consommation des API REST Laravel pour l'affichage de la liste et des détails des restaurants.",
+        "Validation rigoureuse des échanges de données entre l'application mobile et le backend."
+      ]
+    },
+    "delivery": {
+      "title": "Application de livraison — Backend & API REST",
+      "company": "KM Solution SARL — Douala, Cameroun",
+      "period": "Juillet 2025 – Février 2026",
+      "role": "Stagiaire Développeuse Full-Stack",
+      "summary": "Développement backend sous Laravel, conception d'API REST pour vendeurs/livreurs et tests d'intégration avec Postman.",
+      "context": "Développement du backend d'une application de livraison nécessitant la gestion des différents acteurs du processus logistique.",
+      "missions": [
+        "Mise en place de la logique backend et conception des API REST pour les vendeurs et livreurs.",
+        "Réalisation de tests fonctionnels et d'intégration approfondis avec Postman.",
+        "Intégration d'une démarche qualité rigoureuse appliquée au code serveur."
+      ]
+    }
+  },
+  "btn_details": "Voir les détails",
+  "close": "Fermer",
+  "experiences_title": "Expérience Professionnelle",
+  "experiences_subtitle": "Mon parcours dans le développement full-stack, mobile et l'assurance qualité (QA).",
+  "context": "Contexte",
+  "missions_title": "Missions principales",
+  "technologies_title": "Technologies associées",
+  "view_details": "Voir les détails",
+  "close": "Fermer",
+  "mission_default": "Mission clé validée dans le cadre de ce projet de stage.",
+    "parcourspro":"Parcours professionnel"
 
 
 }

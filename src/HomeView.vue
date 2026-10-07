@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import Header from './presentation/view/header/Header.vue';
 import Presentation from './presentation/view/presentation/Presentation.vue';
+import Index from './presentation/view/experience/index.vue';
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import Presentation from './presentation/view/presentation/Presentation.vue';
     
     <main class="pt-0 px-4 max-w-7xl mx-auto">
     <Presentation/>
+    <Index/>
     </main>
   </div>
 </template>

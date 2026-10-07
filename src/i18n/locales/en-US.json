@@ -35,6 +35,60 @@
         "friendly":"Remote friendly",
         "getcontact":"Get in touch",
         "downloadscv":"Download CV",
-                        "scrolltoexplore":"Scroll to explore more"
+                        "scrolltoexplore":"Scroll to explore more",
+                        "experiences_title": "Professional Experience",
+  "experiences_subtitle": "My journey in full-stack mobile development and Quality Assurance (QA).",
+  "exp": {
+    "boolean": {
+      "title": "Full-Stack Development & Quality Assurance",
+      "company": "LD GROUP — Douala, Cameroon",
+      "period": "May 2026 – October 2026",
+      "role": "Full-Stack Developer Intern | Test & QA",
+      "summary": "Functional testing, bug tracking, client deployment, UI enhancement, and technical support.",
+      "context": "Boolean Pro is a web and mobile solution where I contributed to development, quality assurance, deployment, and user support.",
+      "missions": [
+        "Performed functional testing before production releases and tracked bug resolutions.",
+        "Participated in client-side deployments of Boolean Pro and provided technical assistance.",
+        "Translated, adapted, and improved the ergonomics of web and mobile interfaces."
+      ]
+    },
+    "resandpay": {
+      "title": "Restaurant Module Integration",
+      "company": "KMSS — Douala, Cameroon",
+      "period": "Since March 2026",
+      "role": "Mobile Full-Stack Developer Intern",
+      "summary": "Integration of a new restaurant microservice, multi-universe navigation, and REST API consumption.",
+      "context": "Evolution of the ResandPay application through the integration of a new restaurant-focused microservice into the existing mobile ecosystem.",
+      "missions": [
+        "Integrated the restaurant microservice and navigation flows (Universe Switcher).",
+        "Consumed Laravel REST APIs to display restaurant lists and detailed information.",
+        "Rigorous validation of data exchanges between the mobile app and the backend."
+      ]
+    },
+    "delivery": {
+      "title": "Delivery App — Backend & REST API",
+      "company": "KM Solution SARL — Douala, Cameroon",
+      "period": "July 2025 – February 2026",
+      "role": "Full-Stack Developer Intern",
+      "summary": "Laravel backend development, REST API design for vendors/drivers, and integration testing with Postman.",
+      "context": "Backend development for a delivery application managing multiple stakeholders in the logistics process.",
+      "missions": [
+        "Implemented backend logic and designed REST APIs for vendors and delivery personnel.",
+        "Conducted thorough functional and integration testing using Postman.",
+        "Integrated a quality-driven approach applied to server-side code."
+      ]
+    }
+  },
+  "btn_details": "View details",
+  "close": "Close",
+  "experiences_title": "Professional Experience",
+  "experiences_subtitle": "My journey in full-stack mobile development and Quality Assurance (QA).",
+  "context": "Context",
+  "missions_title": "Key Responsibilities",
+  "technologies_title": "Technologies Used",
+  "view_details": "View details",
+  "close": "Close",
+  "mission_default": "Key mission validated during this internship project.",
+  "parcourspro":"Professional Journey"
 
 }
