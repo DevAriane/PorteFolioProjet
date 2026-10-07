@@ -123,7 +123,33 @@
     }
   },
   "contact_cta_title": "Prête à donner vie à un projet extraordinaire ? ✨",
-  "contact_cta_subtitle": "Que vous ayez une idée en tête, que vous souhaitiez discuter d'opportunités ou simplement dire bonjour, j'aimerais beaucoup échanger avec vous. Construisons ensemble de grandes choses !"
+  "contact_cta_subtitle": "Que vous ayez une idée en tête, que vous souhaitiez discuter d'opportunités ou simplement dire bonjour, j'aimerais beaucoup échanger avec vous. Construisons ensemble de grandes choses !",
+    "openopportunities":"Ouvert aux opportunitées",
+  "availablecollaboration":" Disponible pour la collaboration",
+  
+  "blog_title": "Articles & Retours d'Expérience (Tech Insights)",
+  "blog_subtitle": "Explorez des études de cas d'ingénierie logicielle approfondies issues de mes projets professionnels et de soutenance académique.",
+  "read_more": "Lire l'étude de cas",
+  "back_to_articles": "Retour aux articles",
+  "project_context": "1. Contexte & Problématique Métier",
+  "system_architecture": "2. Architecture & Choix Technologiques",
+  "technical_challenges": "3. Défis Techniques & Implémentation",
+  "key_results": "4. Résultats, Bilan & Perspectives",
+
+  "resandpay_blog_title": "Concevoir une architecture App-in-App : RetEX sur l'intégration du microservice de restauration dans ResandPay",
+  "resandpay_blog_desc": "Comment étendre une application multi-services existante sans compromettre le code core en adoptant le modèle architectural 'App-in-App' (Dual-Core) et un moteur de panier strict[cite: 73, 74].",
+  "resandpay_ctx": "Dans le secteur de la restauration urbaine au Cameroun, les files d'attente prolongées aux heures de pointe entraînent une perte d'affluence et une évaporation du chiffre d'affaires des partenaires[cite: 73, 74]. L'objectif principal de cette mission chez KMSS SARL était d'enrichir l'application ResandPay d'un modèle d'affaires de restauration hybride[cite: 73, 74].",
+  "resandpay_arch": "L'architecture repose sur un paradigme étanche de type 'App-in-App' (Dual-Core), isolant le module restauration tout en capitalisant sur l'infrastructure partagée[cite: 73, 74, 100]. La stack intègre React Native (TypeScript) sous Expo avec Redux Store pour la persistance locale du panier[cite: 73, 74], une API REST Laravel et une synchronisation en temps réel via Firebase Cloud Messaging (FCM)[cite: 73, 74].",
+  "resandpay_chal": "• Règle stricte du panier mono-établissement : Interdiction formelle de mélanger les articles de restaurants différents grâce à un algorithme de contrôle Redux[cite: 78, 91].\n• Modes de consommation flexibles : Implémentation du Click & Collect, du Dine-In (avec saisie obligatoire du numéro de table) et de la livraison[cite: 73, 74].\n• Verrouillage des annulations : Inhibition de l'annulation par l'utilisateur dès le basculement de la commande au statut PREPARING[cite: 107].",
+  "resandpay_res": "Intégration réussie de 25 restaurants en phase pilote[cite: 121], réduction drastique des temps d'attente[cite: 128], fluidification totale des échanges entre l'application mobile et le backend Laravel, et sécurisation des transactions financières via le Wallet ResandPay[cite: 73, 74].",
+
+  "mamacare_blog_title": "MamaCare : De la conception à la production d'une application mobile de santé maternelle et infantile",
+  "mamacare_blog_desc": "Retour d'expérience complet sur la mise en œuvre de notre projet de soutenance de Licence en Génie Logiciel : un écosystème unifié et sécurisé pour le suivi de la grossesse et de la petite enfance[cite: 1, 5, 11].",
+  "mamacare_ctx": "La santé maternelle et infantile constitue un enjeu majeur de santé publique au Cameroun, marqué par des indicateurs de mortalité encore préoccupants et un manque d'accès à des informations médicales fiables[cite: 10, 13]. Le projet MamaCare vise à offrir un compagnon numérique de confiance centralisant le suivi de la grossesse, la gestion des enfants, les rendez-vous et un espace communautaire[cite: 5, 11].",
+  "mamacare_arch": "Le système s'articule autour d'une architecture en trois couches : un frontend mobile développé en React Native / Expo 54.0 avec TypeScript[cite: 23, 25], un backend robuste sous Laravel 11 / PHP 8.3[cite: 26], et une base de données NoSQL MongoDB Atlas orientée documents pour s'adapter à la flexibilité des dossiers de santé[cite: 21, 23, 26].",
+  "mamacare_chal": "• Authentification sécurisée hybride : Couplage de Firebase Auth pour la gestion des comptes avec un middleware de validation de tokens JWT côté Laravel[cite: 13, 30].\n• Automatisation algorithmique : Calcul dynamique des semaines de grossesse, de la date prévue d'accouchement (DPA) et mise à jour automatique des statuts des vaccins du Programme Élargi de Vaccination (PEV)[cite: 36, 46].\n• Résilience en production : Correction des timeouts sur Render, gestion des intercepteurs Axios et intégration des empreintes SHA pour Firebase release[cite: 46, 47].",
+  "mamacare_res": "Application fonctionnelle distribuée sous forme d'APK Android[cite: 5], validée par des tests utilisateurs rigoureux auprès de professionnels de santé et de jeunes mamans[cite: 45], ouvrant la voie à des perspectives d'intégration en télémédecine et de synchronisation avec le DMP[cite: 60]."
+
 
 
 }

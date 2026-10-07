@@ -45,7 +45,7 @@ const downloadsFunction = () => {
 </script>
 
 <template>
-  <section class="relative min-h-screen pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-[#0A1128] text-slate-900 dark:text-slate-100 transition-colors duration-300 overflow-hidden flex flex-col justify-between">
+  <section class="relative min-h-screen pt-32 pb-0 px-4 sm:px-6 lg:px-8 bg-white dark:bg-[#0A1128] text-slate-900 dark:text-slate-100 transition-colors duration-300 overflow-hidden flex flex-col justify-between">
     
     <div class="absolute top-20 left-1/4 w-72 h-72 bg-[#0052FF]/10 dark:bg-[#0052FF]/20 rounded-full blur-3xl pointer-events-none animate-pulse"></div>
     <div class="absolute bottom-10 right-1/4 w-80 h-80 bg-[#7C3AED]/10 dark:bg-[#7C3AED]/20 rounded-full blur-3xl pointer-events-none"></div>
