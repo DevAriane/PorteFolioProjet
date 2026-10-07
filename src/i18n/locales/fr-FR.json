@@ -91,7 +91,39 @@
   "mission_default": "Mission clé validée dans le cadre de ce projet de stage.",
     "parcourspro":"Parcours professionnel",
     "skills_title": "Technologies & Stack Technique",
-  "skills_subtitle": "L'ensemble des langages, frameworks, outils et intelligences artificielles que j'utilise pour concevoir et piloter mes projets."
+  "skills_subtitle": "L'ensemble des langages, frameworks, outils et intelligences artificielles que j'utilise pour concevoir et piloter mes projets.",
+   "letconnect": "Restons en contact",
+    "descriptionconnect": "Je suis toujours ravi(e) de discuter de nouvelles opportunités, de collaborer sur des projets\nou tout simplement d'avoir une conversation sur la technologie et l'innovation. 🚀",
+    "contact_section_title": "Me Contacter & Réseaux",
+  "contact_section_subtitle": "Retrouvez-moi sur mes plateformes professionnelles ou contactez-moi directement.",
+  "contacts": {
+    "linkedin": {
+      "name": "LinkedIn",
+      "desc": "Connectons-nous professionnellement et suivons mon parcours."
+    },
+    "github": {
+      "name": "GitHub",
+      "desc": "Découvrez mes projets open-source et mes contributions code."
+    },
+    "gitlab": {
+      "name": "GitLab",
+      "desc": "Explorez mes dépôts de code et mes pipelines CI/CD."
+    },
+    "wakatime": {
+      "name": "WakaTime",
+      "desc": "Statistiques et suivi en temps réel de mon temps de code."
+    },
+    "gmail": {
+      "name": "Email (Gmail)",
+      "desc": "Envoyez-moi un message direct pour toute opportunité."
+    },
+    "whatsapp": {
+      "name": "WhatsApp",
+      "desc": "Discutons rapidement de vos projets ou propositions."
+    }
+  },
+  "contact_cta_title": "Prête à donner vie à un projet extraordinaire ? ✨",
+  "contact_cta_subtitle": "Que vous ayez une idée en tête, que vous souhaitiez discuter d'opportunités ou simplement dire bonjour, j'aimerais beaucoup échanger avec vous. Construisons ensemble de grandes choses !"
 
 
 }

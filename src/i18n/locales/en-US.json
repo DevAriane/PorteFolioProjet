@@ -91,6 +91,38 @@
   "mission_default": "Key mission validated during this internship project.",
   "parcourspro":"Professional Journey",
   "skills_title": "Technologies & Tech Stack",
-  "skills_subtitle": "All the languages, frameworks, tools, and AI assistants I use to design and manage my projects."
+  "skills_subtitle": "All the languages, frameworks, tools, and AI assistants I use to design and manage my projects.",
+  "letconnect": "Let's Connect",
+    "descriptionconnect": "I'm always excited to discuss new opportunities, collaborate on projects,\nor simply have a conversation about technology and innovation. 🚀",
+    "contact_section_title": "Contact & Socials",
+  "contact_section_subtitle": "Find me on my professional platforms or reach out to me directly.",
+  "contacts": {
+    "linkedin": {
+      "name": "LinkedIn",
+      "desc": "Let's connect professionally and follow my career journey."
+    },
+    "github": {
+      "name": "GitHub",
+      "desc": "Discover my open-source projects and code contributions."
+    },
+    "gitlab": {
+      "name": "GitLab",
+      "desc": "Explore my code repositories and CI/CD pipelines."
+    },
+    "wakatime": {
+      "name": "WakaTime",
+      "desc": "Real-time statistics and tracking of my coding activity."
+    },
+    "gmail": {
+      "name": "Email (Gmail)",
+      "desc": "Send me a direct message for any opportunity."
+    },
+    "whatsapp": {
+      "name": "WhatsApp",
+      "desc": "Let's quickly chat about your projects or proposals."
+    }
+  },
+  "contact_cta_title": "Ready to start something amazing? ✨",
+  "contact_cta_subtitle": "Whether you have a project in mind, want to discuss opportunities, or just want to say hello, I'd love to hear from you. Let's build something great together!"
 
 }
