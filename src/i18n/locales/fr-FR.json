@@ -89,7 +89,9 @@
   "view_details": "Voir les détails",
   "close": "Fermer",
   "mission_default": "Mission clé validée dans le cadre de ce projet de stage.",
-    "parcourspro":"Parcours professionnel"
+    "parcourspro":"Parcours professionnel",
+    "skills_title": "Technologies & Stack Technique",
+  "skills_subtitle": "L'ensemble des langages, frameworks, outils et intelligences artificielles que j'utilise pour concevoir et piloter mes projets."
 
 
 }

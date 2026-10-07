@@ -13,7 +13,7 @@ const navTab = computed(() => [
   { title: t('home'), link: "/" },
   { title: t('projects'), link: "#projects" },
   { title: t('blog'), link: "#blog" },
-  { title: t('contacts'), link: "#contact" }
+  { title: t('contacts'), link: "/contact/index" }
 ]);
 
 const toggleMobileMenu = () => {

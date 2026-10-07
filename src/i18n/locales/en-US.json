@@ -89,6 +89,8 @@
   "view_details": "View details",
   "close": "Close",
   "mission_default": "Key mission validated during this internship project.",
-  "parcourspro":"Professional Journey"
+  "parcourspro":"Professional Journey",
+  "skills_title": "Technologies & Tech Stack",
+  "skills_subtitle": "All the languages, frameworks, tools, and AI assistants I use to design and manage my projects."
 
 }
