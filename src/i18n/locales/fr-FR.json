@@ -18,5 +18,20 @@
         "home":"Accueil",
     "projects":"Projets",
     "blog":"Blog",
-    "contacts":"Contacts"
+    "contacts":"Contacts",
+    "space":"Bienvenue dans mon espace digital",
+    "iam":"Je suis {name}",
+    "description":"Développeuse Full-Stack Web & Mobile et QA Tester, passionnée par la conception d’applications modernes, performantes et fiables. J’interviens dans le développement frontend et backend, les tests fonctionnels, l’identification et le suivi des anomalies, ainsi que l’amélioration continue des applications. Je m’intéresse particulièrement au Clean Code, à la Clean Architecture, à l’UI/UX et aux technologies Cloud & DevOps.",
+    "function":"Développeuse Full-Stack Web & Mobile | QA Tester & Assurance Qualité",
+    "frontend":"Frontend",
+    "backend":"Backend",
+    "database":"Base de données",
+    "cloud":"Cloud",
+    "uiux":"Conception UI/UX",
+    "team":"Esprit d'équipe",
+        "tester":"Test et Qualité",
+        "localization":"Douala Cameroun",
+        "available":"Disponible pour les opportunitées",
+        "friendly":"Flexible sur le télétravail"
+
 }

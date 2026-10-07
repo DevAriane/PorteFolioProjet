@@ -1,20 +1,15 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router';
-import { useI18n } from 'vue-i18n';
-defineProps <
-{
-    title: string;
-    link: string;
-}
-    > ();
-
-    const {t}=useI18n({useScope:'global'})
-
-
+defineProps<{
+  title: string;
+  link: string;
+}>();
 </script>
 
 <template>
-    <RouterLink :to="link">
-        <p>{{ title }}</p>
-    </RouterLink>
+  <RouterLink :to="link" class="group relative py-2">
+    <p class="text-sm font-medium text-slate-700 dark:text-slate-200 group-hover:text-[#0052FF] dark:group-hover:text-[#0052FF] transition-colors">
+      {{ title }}
+    </p>
+  </RouterLink>
 </template>

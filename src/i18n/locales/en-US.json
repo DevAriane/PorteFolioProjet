@@ -18,5 +18,19 @@
     "home":"Home",
     "projects":"Projects",
     "blog":"Blog",
-    "contacts":"Contacts"
+    "contacts":"Contacts",
+    "space":"Welcome to my digital space",
+    "iam":"I'am {name}",
+    "description":"Full-Stack Web & Mobile Developer and QA Tester, passionate about building modern, high-performance, and reliable applications. I work across frontend and backend development, functional testing, bug identification and tracking, and continuous application improvement. I am particularly interested in Clean Code, Clean Architecture, UI/UX, and Cloud & DevOps technologies.",
+    "function":"Full-Stack Developer | Software QA & Testing ",
+    "frontend":"Frontend",
+    "backend":"Backend",
+    "database":"Database",
+    "tester":"Testing & QA",
+    "cloud":"Cloud",
+    "uiux":"UI/UX Design",
+    "team":"Team spirit",
+            "localization":"Douala Cameroun",
+        "available":"Available for opportunities",
+        "friendly":"Remote friendly"
 }
