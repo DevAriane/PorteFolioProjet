@@ -2,6 +2,7 @@ import { createRouter, createWebHistory, createWebHashHistory } from "vue-router
 import HomeView from "@/HomeView.vue";
 import Index from "@/presentation/view/contact/index.vue";
 import BlogSection from "@/presentation/view/bloc/BlogSection.vue";
+import ProjectsSection from "@/presentation/view/projects/ProjectsSection.vue";
 
 const routes = [
     {
@@ -12,6 +13,9 @@ const routes = [
     },
         {
         path:'/blog/section', component:BlogSection
+    },
+      {
+        path:'/project/section', component:ProjectsSection
     }
 ];
 

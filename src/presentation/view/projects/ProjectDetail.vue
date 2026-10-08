@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n';
 import { type ProjectItem } from './interface';
-import { ArrowLeft, ExternalLink, Cpu, Database, Cloud, Layers, CheckCircle2 } from '@lucide/vue';
+import { ArrowLeft, ExternalLink, Cpu, Database, Cloud } from '@lucide/vue';
 
 defineProps<{
   project: ProjectItem;
@@ -21,7 +21,7 @@ const { t } = useI18n({ useScope: 'global' });
           class="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-semibold text-slate-700 dark:text-slate-200 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all shadow-sm"
         >
           <ArrowLeft class="w-4 h-4 text-[#0052FF]" />
-          {{ t('back_to_articles') }}
+          {{ t('back_to_projects') }}
         </button>
       </div>
 
@@ -41,7 +41,7 @@ const { t } = useI18n({ useScope: 'global' });
         </p>
 
         <div class="pt-4 space-y-3">
-          <h4 class="text-xs font-bold uppercase tracking-wider text-slate-400">Services connectés & Gestion de projet :</h4>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-slate-400">{{ t('connected_services') }}</h4>
           <div class="flex flex-wrap gap-3">
             <a 
               v-for="service in project.serviceLinks" 
@@ -59,12 +59,11 @@ const { t } = useI18n({ useScope: 'global' });
       </header>
 
       <div class="space-y-10 text-slate-700 dark:text-slate-300 leading-relaxed">
-        
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <div class="bg-slate-50 dark:bg-slate-900/60 p-6 rounded-3xl border border-slate-200/80 dark:border-slate-800/80 space-y-3">
             <h3 class="text-base font-bold text-slate-900 dark:text-white flex items-center gap-2">
               <Cpu class="w-5 h-5 text-[#0052FF]" />
-              Frameworks & Langage
+              {{ t('tech_stack') }}
             </h3>
             <div class="flex flex-wrap gap-2">
               <span v-for="fw in project.frameworks" :key="fw" class="px-2.5 py-1 rounded-lg text-xs font-medium bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">
@@ -76,7 +75,7 @@ const { t } = useI18n({ useScope: 'global' });
           <div class="bg-slate-50 dark:bg-slate-900/60 p-6 rounded-3xl border border-slate-200/80 dark:border-slate-800/80 space-y-3">
             <h3 class="text-base font-bold text-slate-900 dark:text-white flex items-center gap-2">
               <Database class="w-5 h-5 text-purple-600" />
-              Bases de données
+              {{ t('databases') }}
             </h3>
             <div class="flex flex-wrap gap-2">
               <span v-for="db in project.database" :key="db" class="px-2.5 py-1 rounded-lg text-xs font-medium bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">
@@ -89,7 +88,7 @@ const { t } = useI18n({ useScope: 'global' });
         <div class="bg-slate-50 dark:bg-slate-900/60 p-6 rounded-3xl border border-slate-200/80 dark:border-slate-800/80 space-y-3">
           <h3 class="text-base font-bold text-slate-900 dark:text-white flex items-center gap-2">
             <Cloud class="w-5 h-5 text-emerald-500" />
-            Cloud, CI/CD & Pipeline DevOps
+            {{ t('devops_cloud') }}
           </h3>
           <div class="flex flex-wrap gap-2">
             <span v-for="cloud in project.cloudDevOps" :key="cloud" class="px-3 py-1 rounded-lg text-xs font-medium bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">
@@ -97,7 +96,6 @@ const { t } = useI18n({ useScope: 'global' });
             </span>
           </div>
         </div>
-
       </div>
 
     </div>

@@ -148,7 +148,33 @@
   "mamacare_ctx": "La santé maternelle et infantile constitue un enjeu majeur de santé publique au Cameroun, marqué par des indicateurs de mortalité encore préoccupants et un manque d'accès à des informations médicales fiables[cite: 10, 13]. Le projet MamaCare vise à offrir un compagnon numérique de confiance centralisant le suivi de la grossesse, la gestion des enfants, les rendez-vous et un espace communautaire[cite: 5, 11].",
   "mamacare_arch": "Le système s'articule autour d'une architecture en trois couches : un frontend mobile développé en React Native / Expo 54.0 avec TypeScript[cite: 23, 25], un backend robuste sous Laravel 11 / PHP 8.3[cite: 26], et une base de données NoSQL MongoDB Atlas orientée documents pour s'adapter à la flexibilité des dossiers de santé[cite: 21, 23, 26].",
   "mamacare_chal": "• Authentification sécurisée hybride : Couplage de Firebase Auth pour la gestion des comptes avec un middleware de validation de tokens JWT côté Laravel[cite: 13, 30].\n• Automatisation algorithmique : Calcul dynamique des semaines de grossesse, de la date prévue d'accouchement (DPA) et mise à jour automatique des statuts des vaccins du Programme Élargi de Vaccination (PEV)[cite: 36, 46].\n• Résilience en production : Correction des timeouts sur Render, gestion des intercepteurs Axios et intégration des empreintes SHA pour Firebase release[cite: 46, 47].",
-  "mamacare_res": "Application fonctionnelle distribuée sous forme d'APK Android[cite: 5], validée par des tests utilisateurs rigoureux auprès de professionnels de santé et de jeunes mamans[cite: 45], ouvrant la voie à des perspectives d'intégration en télémédecine et de synchronisation avec le DMP[cite: 60]."
+  "mamacare_res": "Application fonctionnelle distribuée sous forme d'APK Android[cite: 5], validée par des tests utilisateurs rigoureux auprès de professionnels de santé et de jeunes mamans[cite: 45], ouvrant la voie à des perspectives d'intégration en télémédecine et de synchronisation avec le DMP[cite: 60].",
+  "projects_title": "Mes Projets & Réalisations",
+  "projects_subtitle": "Découvrez une sélection de mes projets professionnels et académiques, illustrant mon expertise en développement Full-Stack, mobile et assurance qualité.",
+  "view_project": "Voir les détails",
+  "back_to_projects": "← Retour aux projets",
+  "connected_services": "Services connectés & Gestion de projet :",
+  "tech_stack": "Frameworks & Langage",
+  "databases": "Bases de données",
+  "devops_cloud": "Cloud, CI/CD & Pipeline DevOps",
+
+  "filter_all": "Tous",
+  "filter_mobile": "Mobile",
+  "filter_fullstack": "Full-Stack",
+  "filter_typescript": "TypeScript",
+  "filter_laravel": "Laravel",
+  "filter_app_in_app": "App-in-App",
+  "filter_mongodb": "MongoDB",
+  "filter_docker": "Docker",
+
+  "project_boolean_title": "Boolean Pro",
+  "project_boolean_desc": "Solution web et mobile axée sur le développement full-stack, les tests fonctionnels rigoureux, le déploiement client et l'assistance technique.",
+  
+  "project_resandpay_title": "ResandPay (Module Restauration)",
+  "project_resandpay_desc": "Intégration d'un microservice de restauration avec architecture 'App-in-App' (Dual-Core), gestion Redux et règles stricts de panier unique.",
+  
+  "project_mamacare_title": "MamaCare",
+  "project_mamacare_desc": "Application mobile de santé maternelle et infantile (projet de soutenance) développée avec React Native, Laravel 11 et MongoDB Atlas."
 
 
 

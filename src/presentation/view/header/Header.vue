@@ -11,7 +11,7 @@ const isMobileMenuOpen = ref<boolean>(false);
 
 const navTab = computed(() => [
   { title: t('home'), link: "/" },
-  { title: t('projects'), link: "#projects" },
+  { title: t('projects'), link: "/project/section" },
   { title: t('blog'), link: "/blog/section" },
   { title: t('contacts'), link: "/contact/index" }
 ]);

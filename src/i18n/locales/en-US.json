@@ -148,7 +148,33 @@
   "mamacare_ctx": "Maternal and child health is a major public health challenge in Cameroon, characterized by concerning mortality rates and limited access to reliable medical information[cite: 10, 13]. MamaCare provides a trusted digital companion centralizing pregnancy tracking, child health, appointments, and a community space[cite: 5, 11].",
   "mamacare_arch": "A three-tier architecture featuring a React Native / Expo 54.0 mobile frontend with TypeScript[cite: 23, 25], a robust Laravel 11 / PHP 8.3 REST API backend[cite: 26], and a document-oriented MongoDB Atlas cloud database[cite: 21, 23, 26].",
   "mamacare_chal": "• Secure hybrid authentication: Pairing Firebase Auth with a custom JWT token validation middleware in Laravel[cite: 13, 30].\n• Algorithmic automation: Dynamic calculation of pregnancy weeks, estimated due dates (EDD), and automated status updates for PEV vaccination schedules[cite: 36, 46].\n• Production resilience: Fixing Render timeouts, managing Axios interceptors, and integrating SHA fingerprints for Firebase release[cite: 46, 47].",
-  "mamacare_res": "Fully functional Android APK distributed[cite: 5], validated through rigorous user testing with healthcare professionals and young mothers[cite: 45], paving the way for telemedicine and electronic health record integration[cite: 60]."
+  "mamacare_res": "Fully functional Android APK distributed[cite: 5], validated through rigorous user testing with healthcare professionals and young mothers[cite: 45], paving the way for telemedicine and electronic health record integration[cite: 60].",
+  "projects_title": "My Projects & Realizations",
+  "projects_subtitle": "Explore a selection of my professional and academic projects, showcasing my expertise in Full-Stack, mobile development, and QA.",
+  "view_project": "View Details",
+  "back_to_projects": "← Back to Projects",
+  "connected_services": "Connected Services & Project Management:",
+  "tech_stack": "Frameworks & Language",
+  "databases": "Databases",
+  "devops_cloud": "Cloud, CI/CD & DevOps Pipeline",
+
+  "filter_all": "All",
+  "filter_mobile": "Mobile",
+  "filter_fullstack": "Full-Stack",
+  "filter_typescript": "TypeScript",
+  "filter_laravel": "Laravel",
+  "filter_app_in_app": "App-in-App",
+  "filter_mongodb": "MongoDB",
+  "filter_docker": "Docker",
+
+  "project_boolean_title": "Boolean Pro",
+  "project_boolean_desc": "Web and mobile solution focused on full-stack development, rigorous functional testing, client deployment, and technical support.",
+  
+  "project_resandpay_title": "ResandPay (Restaurant Module)",
+  "project_resandpay_desc": "Integration of a restaurant microservice with an 'App-in-App' (Dual-Core) architecture, Redux state management, and strict single-establishment cart rules.",
+  
+  "project_mamacare_title": "MamaCare",
+  "project_mamacare_desc": "Maternal and child health mobile application (thesis project) developed with React Native, Laravel 11, and MongoDB Atlas."
 
 
 }

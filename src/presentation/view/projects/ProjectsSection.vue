@@ -10,14 +10,29 @@ import { FolderGit2 } from '@lucide/vue';
 
 const { t } = useI18n({ useScope: 'global' });
 const selectedProject = ref<ProjectItem | null>(null);
-const selectedFilter = ref('Tous');
+const selectedFilter = ref('all');
 
-const categories = ['Tous', 'Full-Stack', 'Mobile', 'TypeScript', 'Laravel'];
+const categories = [
+  { key: 'all', labelKey: 'filter_all' },
+  { key: 'Mobile', labelKey: 'filter_mobile' },
+  { key: 'Full-Stack', labelKey: 'filter_fullstack' },
+  { key: 'TypeScript', labelKey: 'filter_typescript' },
+  { key: 'Laravel', labelKey: 'filter_laravel' },
+  { key: 'App-in-App', labelKey: 'filter_app_in_app' },
+  { key: 'MongoDB', labelKey: 'filter_mongodb' },
+  { key: 'Docker', labelKey: 'filter_docker' }
+];
 
 const filteredProjects = computed(() => {
-  if (selectedFilter.value === 'Tous') return projectsData;
+  if (selectedFilter.value === 'all') return projectsData;
+  
   return projectsData.filter(p => 
-    p.platform === selectedFilter.value || p.language === selectedFilter.value || p.frameworks.includes(selectedFilter.value)
+    p.platform === selectedFilter.value || 
+    p.language === selectedFilter.value || 
+    p.frameworks.some(f => f.toLowerCase().includes(selectedFilter.value.toLowerCase())) ||
+    p.architecture.some(a => a.toLowerCase().includes(selectedFilter.value.toLowerCase())) ||
+    p.database.some(d => d.toLowerCase().includes(selectedFilter.value.toLowerCase())) ||
+    p.cloudDevOps.some(c => c.toLowerCase().includes(selectedFilter.value.toLowerCase()))
   );
 });
 </script>
@@ -49,7 +64,7 @@ const filteredProjects = computed(() => {
         <ProjectFilters 
           :categories="categories" 
           :selectedCategory="selectedFilter" 
-          @select="(cat) => selectedFilter = cat" 
+          @select="(key) => selectedFilter = key" 
         />
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 pt-4">
