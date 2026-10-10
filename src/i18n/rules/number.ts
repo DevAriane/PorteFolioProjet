@@ -1,6 +1,5 @@
-import type { NumberFormats } from "vue-i18n";
 
-export const numberFormats: NumberFormats = {
+export const numberFormats={
     'en-US': {
         currency: {
             style: 'currency',

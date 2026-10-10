@@ -20,7 +20,9 @@ const categories = [
   { key: 'Laravel', labelKey: 'filter_laravel' },
   { key: 'App-in-App', labelKey: 'filter_app_in_app' },
   { key: 'MongoDB', labelKey: 'filter_mongodb' },
-  { key: 'Docker', labelKey: 'filter_docker' }
+  { key: 'Docker', labelKey: 'filter_docker' },
+  { key: 'COMPANY', labelKey: 'company' },
+  { key: 'OWNER', labelKey: 'owner' }
 ];
 
 const filteredProjects = computed(() => {
@@ -32,7 +34,8 @@ const filteredProjects = computed(() => {
     p.frameworks.some(f => f.toLowerCase().includes(selectedFilter.value.toLowerCase())) ||
     p.architecture.some(a => a.toLowerCase().includes(selectedFilter.value.toLowerCase())) ||
     p.database.some(d => d.toLowerCase().includes(selectedFilter.value.toLowerCase())) ||
-    p.cloudDevOps.some(c => c.toLowerCase().includes(selectedFilter.value.toLowerCase()))
+    p.cloudDevOps.some(c => c.toLowerCase().includes(selectedFilter.value.toLowerCase())) ||
+    p.company === selectedFilter.value
   );
 });
 </script>

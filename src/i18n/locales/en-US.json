@@ -1,42 +1,42 @@
 {
-    "app": {
-        "title": "Vue I18n App",
-        "welcome": "Welcome {name}!"
-    },
-    "cart": {
-        "items": "No items | One item | {count} items",
-        "total": "Total:"
-    },
-    "greet": "hello world",
-    "car": "car | cars",
-    "apple": "no apples | one apple | {count} apples",
-    "banana": "no bananas | {n} banana | {n} bananas",
-    "current": "current datetime :",
-    "money": "money",
-    "french": "French",
-    "english": "English",
-    "home":"Home",
-    "projects":"Projects",
-    "blog":"Blog",
-    "contacts":"Contacts",
-    "space":"Welcome to my digital space",
-    "iam":"I'am {name}",
-    "description":"Full-Stack Web & Mobile Developer and QA Tester, passionate about building modern, high-performance, and reliable applications. I work across frontend and backend development, functional testing, bug identification and tracking, and continuous application improvement. I am particularly interested in Clean Code, Clean Architecture, UI/UX, and Cloud & DevOps technologies.",
-    "function":"Full-Stack Developer | Software QA & Testing ",
-    "frontend":"Frontend",
-    "backend":"Backend",
-    "database":"Database",
-    "tester":"Testing & QA",
-    "cloud":"Cloud",
-    "uiux":"UI/UX Design",
-    "team":"Team spirit",
-            "localization":"Douala Cameroun",
-        "available":"Available for opportunities",
-        "friendly":"Remote friendly",
-        "getcontact":"Get in touch",
-        "downloadscv":"Download CV",
-                        "scrolltoexplore":"Scroll to explore more",
-                        "experiences_title": "Professional Experience",
+  "app": {
+    "title": "Vue I18n App",
+    "welcome": "Welcome {name}!"
+  },
+  "cart": {
+    "items": "No items | One item | {count} items",
+    "total": "Total:"
+  },
+  "greet": "hello world",
+  "car": "car | cars",
+  "apple": "no apples | one apple | {count} apples",
+  "banana": "no bananas | {n} banana | {n} bananas",
+  "current": "current datetime :",
+  "money": "money",
+  "french": "French",
+  "english": "English",
+  "home": "Home",
+  "projects": "Projects",
+  "blog": "Blog",
+  "contacts": "Contacts",
+  "space": "Welcome to my digital space",
+  "iam": "I'am {name}",
+  "description": "Full-Stack Web & Mobile Developer and QA Tester, passionate about building modern, high-performance, and reliable applications. I work across frontend and backend development, functional testing, bug identification and tracking, and continuous application improvement. I am particularly interested in Clean Code, Clean Architecture, UI/UX, and Cloud & DevOps technologies.",
+  "function": "Full-Stack Developer | Software QA & Testing ",
+  "frontend": "Frontend",
+  "backend": "Backend",
+  "database": "Database",
+  "tester": "Testing & QA",
+  "cloud": "Cloud",
+  "uiux": "UI/UX Design",
+  "team": "Team spirit",
+  "localization": "Douala Cameroun",
+  "available": "Available for opportunities",
+  "friendly": "Remote friendly",
+  "getcontact": "Get in touch",
+  "downloadscv": "Download CV",
+  "scrolltoexplore": "Scroll to explore more",
+  "experiences_title": "Professional Experience",
   "experiences_subtitle": "My journey in full-stack mobile development and Quality Assurance (QA).",
   "exp": {
     "boolean": {
@@ -89,12 +89,12 @@
   "view_details": "View details",
   "close": "Close",
   "mission_default": "Key mission validated during this internship project.",
-  "parcourspro":"Professional Journey",
+  "parcourspro": "Professional Journey",
   "skills_title": "Technologies & Tech Stack",
   "skills_subtitle": "All the languages, frameworks, tools, and AI assistants I use to design and manage my projects.",
   "letconnect": "Let's Connect",
-    "descriptionconnect": "I'm always excited to discuss new opportunities, collaborate on projects,\nor simply have a conversation about technology and innovation. 🚀",
-    "contact_section_title": "Contact & Socials",
+  "descriptionconnect": "I'm always excited to discuss new opportunities, collaborate on projects,\nor simply have a conversation about technology and innovation. 🚀",
+  "contact_section_title": "Contact & Socials",
   "contact_section_subtitle": "Find me on my professional platforms or reach out to me directly.",
   "contacts": {
     "linkedin": {
@@ -124,9 +124,8 @@
   },
   "contact_cta_title": "Ready to start something amazing? ✨",
   "contact_cta_subtitle": "Whether you have a project in mind, want to discuss opportunities, or just want to say hello, I'd love to hear from you. Let's build something great together!",
-  "openopportunities":"Open to opportunities",
-  "availablecollaboration":" Available for collaboration",
-  
+  "openopportunities": "Open to opportunities",
+  "availablecollaboration": " Available for collaboration",
   "blog_title": "Articles & Tech Insights",
   "blog_subtitle": "Explore in-depth software engineering case studies from my professional experience and academic thesis.",
   "read_more": "Read Case Study",
@@ -135,14 +134,12 @@
   "system_architecture": "2. Architecture & Tech Stack",
   "technical_challenges": "3. Technical Challenges & Implementation",
   "key_results": "4. Results, Outcome & Perspectives",
-
   "resandpay_blog_title": "Designing an App-in-App Architecture: RetEX on ResandPay's Restaurant Service Integration",
   "resandpay_blog_desc": "How to scale an existing multi-service app without breaking core code by adopting the 'App-in-App' (Dual-Core) architectural paradigm and strict cart management[cite: 73, 74].",
   "resandpay_ctx": "In Cameroon's urban food service industry, long customer wait times at peak hours lead to customer churn and revenue loss[cite: 73, 74]. The mission at KMSS SARL was to enrich the ResandPay app with a hybrid dining business model[cite: 73, 74].",
   "resandpay_arch": "Built on an isolated 'App-in-App' (Dual-Core) paradigm, separating the restaurant universe while sharing core infrastructure[cite: 73, 74, 100]. The stack uses React Native (TypeScript) with Expo, Redux Store for cart persistence[cite: 73, 74], a Laravel REST API, and real-time Firebase Cloud Messaging (FCM)[cite: 73, 74].",
   "resandpay_chal": "• Strict single-establishment cart rule: Prevention of mixing items from different vendors via Redux logic[cite: 78, 91].\n• Flexible fulfillment modes: Click & Collect, Dine-In (with mandatory table number input), and Delivery[cite: 73, 74].\n• Cancellation lock: Disabling user cancellation once orders shift to PREPARING[cite: 107].",
   "resandpay_res": "Successful integration of 25 pilot restaurants[cite: 121], drastic reduction in wait times[cite: 128], seamless mobile-to-backend communication, and secure transactions via the ResandPay Wallet[cite: 73, 74].",
-
   "mamacare_blog_title": "MamaCare: From Design to Production of a Maternal and Child Health Mobile App",
   "mamacare_blog_desc": "Comprehensive retrospective on our Software Engineering BSc thesis project: a unified, secure ecosystem for pregnancy and early childhood tracking[cite: 1, 5, 11].",
   "mamacare_ctx": "Maternal and child health is a major public health challenge in Cameroon, characterized by concerning mortality rates and limited access to reliable medical information[cite: 10, 13]. MamaCare provides a trusted digital companion centralizing pregnancy tracking, child health, appointments, and a community space[cite: 5, 11].",
@@ -157,7 +154,6 @@
   "tech_stack": "Frameworks & Language",
   "databases": "Databases",
   "devops_cloud": "Cloud, CI/CD & DevOps Pipeline",
-
   "filter_all": "All",
   "filter_mobile": "Mobile",
   "filter_fullstack": "Full-Stack",
@@ -166,15 +162,12 @@
   "filter_app_in_app": "App-in-App",
   "filter_mongodb": "MongoDB",
   "filter_docker": "Docker",
-
   "project_boolean_title": "Boolean Pro",
   "project_boolean_desc": "Web and mobile solution focused on full-stack development, rigorous functional testing, client deployment, and technical support.",
-  
   "project_resandpay_title": "ResandPay (Restaurant Module)",
   "project_resandpay_desc": "Integration of a restaurant microservice with an 'App-in-App' (Dual-Core) architecture, Redux state management, and strict single-establishment cart rules.",
-  
   "project_mamacare_title": "MamaCare",
-  "project_mamacare_desc": "Maternal and child health mobile application (thesis project) developed with React Native, Laravel 11, and MongoDB Atlas."
-
-
+  "project_mamacare_desc": "Maternal and child health mobile application (thesis project) developed with React Native, Laravel 11, and MongoDB Atlas.",
+  "compony":"Company",
+  "owner":"Owner"
 }

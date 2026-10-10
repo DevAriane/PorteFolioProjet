@@ -1,11 +1,10 @@
-import type { DateTimeFormats } from 'vue-i18n';
 
-export const datetimeFormats : DateTimeFormats={
-    'en-US':{
-        short:{
-            year:'numeric',
-            month:'short',
-            day:'numeric'
+export const datetimeFormats = {
+    'en-US': {
+        short: {
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric'
         },
       long: {
         year: 'numeric',
@@ -16,11 +15,11 @@ export const datetimeFormats : DateTimeFormats={
         second: '2-digit'
       }
     },
-    'fr-FR':{
-        short:{
-            year:'numeric',
-            month:'short',
-            day:'numeric'
+    'fr-FR': {
+        short: {
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric'
         },
       long: {
         year: 'numeric',
@@ -29,7 +28,7 @@ export const datetimeFormats : DateTimeFormats={
         hour: '2-digit',
         minute: '2-digit',
         second: '2-digit',
-        hour12:false
+        hour12: false
       }
-    },     
-}
+    },    
+};

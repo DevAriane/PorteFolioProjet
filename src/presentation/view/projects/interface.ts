@@ -19,8 +19,12 @@ export interface ProjectItem {
   hasFigma: boolean;          
 
   serviceLinks: ProjectServiceLink[];
+  company:string;
 
   tags: string[];
   date: string;
   accentColor: string;
+  apk?:File | Blob;
+  galery?:string[];
+  logo?:string;
 }
