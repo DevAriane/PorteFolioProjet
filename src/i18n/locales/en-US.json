@@ -169,5 +169,17 @@
   "project_mamacare_title": "MamaCare",
   "project_mamacare_desc": "Maternal and child health mobile application (thesis project) developed with React Native, Laravel 11, and MongoDB Atlas.",
   "compony":"Company",
-  "owner":"Owner"
+  "owner":"Owner",
+  "projects": {
+    "foodly": {
+      "title": "Foodly KITCHEN",
+      "desc": "Interactive web-based food ordering application featuring dynamic filters and cart management.",
+      "longDesc": "Foodly KITCHEN is a modern web application built with Vue 3 (Composition API) and TypeScript. It features a sleek, responsive interface, real-time search, advanced multi-criteria filters (categories, portions, dietary preferences, pricing) powered by Pinia, and an optimized user experience across both desktop and mobile devices."
+    }
+  },
+  "download_apk": "Download APK",
+  "view_web_link": "View Web Link",
+  "confidential": "Confidential",
+    "nothingmedia":"Nothing media is available "
+
 }

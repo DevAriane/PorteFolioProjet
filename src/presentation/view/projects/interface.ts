@@ -17,12 +17,11 @@ export interface ProjectItem {
   cloudDevOps: string[];      
   platform: 'Mobile' | 'Web' | 'Full-Stack' | 'Desktop';
   hasFigma: boolean;          
-
+webUrl?: string;
   serviceLinks: ProjectServiceLink[];
   company:string;
-
+  videoFile?: File;
   tags: string[];
-  date: string;
   accentColor: string;
   apk?:File | Blob;
   galery?:string[];

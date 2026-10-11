@@ -1,4 +1,5 @@
 import { type ProjectItem } from './interface';
+import Restaurant from '../../../assets/Restaurant.png'
 
 export const projectsData: ProjectItem[] = [
   {
@@ -22,7 +23,6 @@ export const projectsData: ProjectItem[] = [
     ],
     company:"COMPANY",
     tags: ['React Native', 'Redux', 'MySQL'],
-    date: 'Mars 2026',
     accentColor: 'from-[#0052FF]/20 to-purple-600/20'
   },
   {
@@ -45,8 +45,45 @@ export const projectsData: ProjectItem[] = [
     ],
     company:"OWNER",
     tags: ['React Native', 'Expo', 'MongoDB Atlas', 'Laravel'],
-    date: 'Juin 2026',
     accentColor: 'from-purple-500/20 to-pink-500/20'
   },
+  {
+  id: "foodly-kitchen-01",
+  titleKey: "projects.foodly.title",
+  descKey: "projects.foodly.desc",
+  longDescKey: "projects.foodly.longDesc",
+
+  language: "TypeScript",
+  frameworks: ["Vue 3", "Pinia", "Vue Router", "Tailwind CSS", "shadcn-vue", "Lucide Icons"],
+  architecture: ["Composition API", "Component-Driven", "Reactive Store Pattern"],
+  database: ["Local State Management", "Pinia Persisted State"],
+  cloudDevOps: ["Vercel"],
+  platform: "Web",
+  hasFigma: false,
+
+  serviceLinks: [
+    {
+      name: "Live Demo",
+      url: "https://order-estaurant-manage.vercel.app",
+      icon: "globe"
+    },
+    {
+      name: "GitHub Repository",
+      url: "https://github.com/arianejuanita-lgtm/Order-estaurant-manage",
+      icon: "github"
+    }
+  ],
+  company: "OWNER",
+  webUrl:"https://order-estaurant-manage.vercel.app",
+
+  tags: ["Food Delivery", "Web App", "UI/UX", "Responsive", "Filters & Search"],
+  accentColor: "#F5BE18",
+  galery: [
+    // "/images/foodly-menu.png",
+    // "/images/foodly-filters.png",
+    // "/images/foodly-cart.png"
+  ],
+   logo: Restaurant,
+}
  
 ];
