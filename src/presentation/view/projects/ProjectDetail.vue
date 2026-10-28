@@ -29,7 +29,7 @@ const { t } = useI18n({ useScope: 'global' });
         <div class="flex items-center gap-3 text-xs font-semibold text-[#0052FF] dark:text-blue-400">
           <span>{{ project.platform }}</span>
           <span>•</span>
-          <span>{{ project.date }}</span>
+          <span>{{ project?.date }}</span>
         </div>
 
         <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 dark:text-white tracking-tight">
