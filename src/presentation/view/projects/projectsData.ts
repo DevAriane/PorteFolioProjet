@@ -1,5 +1,22 @@
 import { type ProjectItem } from './interface';
-import Restaurant from '../../../assets/Restaurant.png'
+import Restaurant from '../../../assets/Restaurant.png';
+import Depenselogo from '../../../assets/logoDepense.png';
+import Depense from '../../../assets/depense.png';
+import depense2 from '../../../assets/depense2.png';
+import depense3 from '../../../assets/depense3.png';
+import foodly1 from '../../../assets/foodly1.png';
+import foodly2 from '../../../assets/foodly2.png';
+import foodly3 from '../../../assets/foodly3.png';
+import foodly4 from '../../../assets/foodly4.png';
+import foodgo from '../../../assets/foodgo.png';
+import food1 from '../../../assets/food1.jpeg';
+import food2 from '../../../assets/food2.jpeg';
+import food3 from '../../../assets/food3.jpeg';
+import food4 from '../../../assets/food4.jpeg';
+import food5 from '../../../assets/food5.jpeg';
+import food6 from '../../../assets/food6.jpeg';
+import food7 from '../../../assets/food7.jpeg';
+
 
 export const projectsData: ProjectItem[] = [
   {
@@ -47,6 +64,28 @@ export const projectsData: ProjectItem[] = [
     tags: ['React Native', 'Expo', 'MongoDB Atlas', 'Laravel'],
     accentColor: 'from-purple-500/20 to-pink-500/20'
   },
+
+  {
+      id: 'Foodgo',
+  titleKey: 'projects.foodgo.title',
+  descKey: 'projects.foodgo.shortDescription',
+  longDescKey: 'projects.foodgo.longDescription',
+    language: 'TypeScript',
+    frameworks: ['React Native', 'Expo 54.0', 'Node.JS'],
+    architecture: ['Three-Tier Architecture'],
+    database: ['Node.JS'],
+    cloudDevOps: ['Github'],
+    platform: 'Mobile',
+    hasFigma: true,
+   apk:'https://expo.dev/accounts/ariane_ateumo/projects/projet/builds/32c93ecb-03b7-4d05-b1b6-5756887ce524',
+    company:"OWNER",
+    tags: ['React Native', 'Expo', 'Node.JS', 'FireBase'],
+    accentColor: 'from-green-700/30 to-emerald-700/30',
+     galery: [
+  food1,food2,food3,food4,food5,food6,food7
+  ],
+   logo: foodgo,
+  },
   {
   id: "foodly-kitchen-01",
   titleKey: "projects.foodly.title",
@@ -79,11 +118,51 @@ export const projectsData: ProjectItem[] = [
   tags: ["Food Delivery", "Web App", "UI/UX", "Responsive", "Filters & Search"],
   accentColor: "#F5BE18",
   galery: [
-    // "/images/foodly-menu.png",
-    // "/images/foodly-filters.png",
-    // "/images/foodly-cart.png"
+  foodly1,
+  foodly2,
+  foodly3,
+  foodly4
   ],
    logo: Restaurant,
-}
+},
+ {
+"id": "expense-tracker-app",
+  "titleKey": "projects.expense.title",
+  "descKey": "projects.expense.desc",
+  "longDescKey": "projects.expense.longDesc",
+
+  language: "TypeScript",
+  frameworks: ["Vue 3", "Pinia", "Vue Router", "Tailwind CSS", "shadcn-vue", "Lucide Icons"],
+  architecture: ["Composition API", "Component-Driven", "Reactive Store Pattern"],
+  database: ["Local State Management", "Pinia Persisted State"],
+  cloudDevOps: ["Vercel"],
+  platform: "Web",
+  hasFigma: false,
+
+  serviceLinks: [
+    {
+      name: "Live Demo",
+      url: "https://depense-plum.vercel.app",
+      icon: "globe"
+    },
+    {
+      name: "GitHub Repository",
+      url: "https://github.com/arianejuanita-lgtm/Depense-",
+      icon: "github"
+    }
+  ],
+  company: "OWNER",
+  webUrl:"https://depense-plum.vercel.app",
+
+  tags: ["EXPENSE PLAN", "Web App", "UI/UX", "Responsive", "Filters & Search"],
+  accentColor: "#1E40AF",
+  galery: [
+    Depense,
+    depense2,
+    depense3
+  ],
+   logo: Depenselogo,
+},
+
  
 ];

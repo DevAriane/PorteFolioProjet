@@ -16,6 +16,24 @@ const viewWeblink = (url?: string) => {
     window.open(url, '_blank', 'noopener,noreferrer');
   }
 };
+
+const downloadApk = (apk?: File | Blob | string | String) => {
+  if (!apk) return;
+
+  if (apk instanceof File || apk instanceof Blob) {
+    const url = URL.createObjectURL(apk);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = (apk as File).name || 'application.apk';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url); 
+  } 
+  else {
+    window.open(String(apk), '_blank', 'noopener,noreferrer');
+  }
+};
 </script>
 
 <template>
@@ -52,7 +70,7 @@ const viewWeblink = (url?: string) => {
         {{ t(project.descKey) }}
       </p>
 
-      <div v-if="project.serviceLinks.length > 0" class="flex flex-wrap gap-1.5 pt-1">
+      <div v-if="project.serviceLinks" class="flex flex-wrap gap-1.5 pt-1">
         <span v-for="service in project.serviceLinks.slice(0, 3)" :key="service.name"
           class="inline-flex items-center gap-1 text-[11px] font-medium px-2 py-0.5 rounded-md bg-blue-50/60 dark:bg-blue-950/40 text-[#0052FF] dark:text-blue-300 border border-blue-200/40 dark:border-blue-800/40">
           {{ service.name.split(' ')[0] }}
@@ -67,12 +85,14 @@ const viewWeblink = (url?: string) => {
 
   <div v-if="project.company === 'OWNER'" class="flex items-center">
     
-    <div v-if="project.platform === 'Mobile'" class="inline-flex items-center gap-1.5 font-semibold text-[#0052FF] dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition-colors cursor-pointer group/link">
-      <svg class="w-3.5 h-3.5 transform group-hover/link:-translate-y-0.5 transition-transform" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
-      </svg>
-      <span>{{ t('download_apk') }}</span>
-    </div>
+ <div v-if="project.platform === 'Mobile'" 
+     @click.stop="downloadApk(project?.apk)" 
+     class="inline-flex items-center gap-1.5 font-semibold text-[#0052FF] dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition-colors cursor-pointer group/link">
+  <svg class="w-3.5 h-3.5 transform group-hover/link:-translate-y-0.5 transition-transform" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+  </svg>
+  <span>{{ t('download_apk') }}</span>
+</div>
 
     <div @click.stop="viewWeblink(project.webUrl)" v-else class="inline-flex items-center gap-1.5 font-semibold text-[#7C3AED] dark:text-purple-400 hover:text-purple-700 dark:hover:text-purple-300 transition-colors cursor-pointer group/link">
       <svg class="w-3.5 h-3.5 transform group-hover/link:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">

@@ -180,5 +180,22 @@
   "download_apk": "Télécharger l'APK",
   "view_web_link": "Voir le lien web",
   "confidential": "Confidentiel",
-  "nothingmedia":" Aucun média disponible"
+  "nothingmedia":" Aucun média disponible",
+  "projects": {
+    "expense": {
+      "title": "Gestionnaire de Dépenses",
+      "desc": "Application web de suivi financier avec synchronisation cache-first et filtres dynamiques.",
+      "longDesc": "Application web moderne développée avec Vue 3, Pinia et Tailwind CSS. Intègre une double synchronisation (API et localStorage) pour une expérience fluide et un accès hors-ligne instantané."
+    },
+     "foodly": {
+      "title": "Foodly KITCHEN",
+      "desc": "Application web de commande et de gestion de restaurant, moderne et responsive.",
+      "longDesc": "Application web interactive développée avec Vue 3, Composition API, Pinia et Tailwind CSS. Conçue pour offrir une expérience fluide de commande de repas avec des filtres dynamiques, une recherche intuitive et une interface élégante propulsée par shadcn-vue."
+    },
+       "foodgo": {
+      "title": "Foodgo — Application de Livraison de Repas",
+      "shortDescription": "Plateforme mobile de commande et livraison de repas multi-restaurants avec suivi GPS en temps réel.",
+      "longDescription": "Foodgo est une application mobile complète de commande et de livraison de repas développée avec React Native et Expo. La plateforme connecte clients, restaurants et livreurs dans un écosystème unifié : les clients parcourent les restaurants à proximité, personnalisent leurs plats et suivent leur commande en temps réel sur une carte interactive. L'application intègre un système de panier multi-restaurants, un tableau de bord dédié aux livreurs avec affectation automatique des commandes, un suivi GPS via WebSocket et une gestion complète du cycle de vie des commandes (en attente, assignée, en cours de livraison, livrée). Le tout est sécurisé par Firebase Authentication, propulsé par Firestore et déployé via EAS Build. L'application est entièrement internationalisée en français, anglais et allemand."
+    }
+  }
 }

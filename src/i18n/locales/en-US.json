@@ -180,6 +180,23 @@
   "download_apk": "Download APK",
   "view_web_link": "View Web Link",
   "confidential": "Confidential",
-    "nothingmedia":"Nothing media is available "
+    "nothingmedia":"Nothing media is available ",
+    "projects": {
+    "expense": {
+      "title": "Expense Tracker Dashboard",
+      "desc": "Financial tracking web application featuring cache-first synchronization and dynamic filters.",
+      "longDesc": "Modern web application built with Vue 3, Pinia, and Tailwind CSS. Features a dual-sync architecture (API and localStorage) ensuring seamless performance and instant offline access."
+    },
+     "foodly": {
+      "title": "Foodly KITCHEN",
+      "desc": "Modern and responsive web-based food ordering and restaurant management application.",
+      "longDesc": "Interactive web application built with Vue 3, Composition API, Pinia, and Tailwind CSS. Designed to provide a seamless food ordering experience featuring dynamic filters, intuitive search, and an elegant UI powered by shadcn-vue."
+    },
+    "foodgo": {
+      "title": "Foodgo — Food Delivery Application",
+      "shortDescription": "Multi-restaurant food ordering and delivery mobile platform with real-time GPS tracking.",
+      "longDescription": "Foodgo is a comprehensive food ordering and delivery mobile application built with React Native and Expo. The platform connects customers, restaurants, and drivers in a unified ecosystem: customers browse nearby restaurants, customize their dishes, and track their orders in real time on an interactive map. The app features a multi-restaurant cart system, a dedicated driver dashboard with automatic order assignment, GPS tracking via WebSocket, and complete order lifecycle management (pending, assigned, picked up, delivered). Everything is secured with Firebase Authentication, powered by Firestore, and deployed via EAS Build. The application is fully internationalized in French, English, and German."
+    }
+  }
 
 }

@@ -18,12 +18,12 @@ export interface ProjectItem {
   platform: 'Mobile' | 'Web' | 'Full-Stack' | 'Desktop';
   hasFigma: boolean;          
 webUrl?: string;
-  serviceLinks: ProjectServiceLink[];
+  serviceLinks?: ProjectServiceLink[];
   company:string;
   videoFile?: File;
   tags: string[];
   accentColor: string;
-  apk?:File | Blob;
+  apk?:File | Blob | String;
   galery?:string[];
   logo?:string;
 }
