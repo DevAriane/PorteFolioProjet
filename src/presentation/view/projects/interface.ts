@@ -9,7 +9,7 @@ export interface ProjectItem {
   titleKey: string;           
   descKey: string;            
   longDescKey?: string;       
-
+  date?:Date;
   language: 'TypeScript' | 'PHP' | 'JavaScript' | 'Dart';
   frameworks: string[];       
   architecture: string[];     
