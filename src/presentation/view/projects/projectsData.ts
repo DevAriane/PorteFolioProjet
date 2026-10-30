@@ -16,7 +16,19 @@ import food4 from '../../../assets/food4.jpeg';
 import food5 from '../../../assets/food5.jpeg';
 import food6 from '../../../assets/food6.jpeg';
 import food7 from '../../../assets/food7.jpeg';
-
+import mamacare from '../../../assets/logomamacare.png';
+import mam1 from '../../../assets/mam1.jpeg';
+import mam2 from '../../../assets/mam2.jpeg';
+import mam3 from '../../../assets/mam3.jpeg';
+import mam4 from '../../../assets/mam4.jpeg';
+import mam5 from '../../../assets/mam6.jpeg';
+import mam6 from '../../../assets/mam6.jpeg';
+import mam7 from '../../../assets/mam7.jpeg';
+import mam8 from '../../../assets/mam8.jpeg';
+import mam9 from '../../../assets/mam9.jpeg';
+import mam10 from '../../../assets/mam10.jpeg';
+import mam11 from '../../../assets/mam11.jpeg';
+import mam12 from '../../../assets/mam12.jpeg';
 
 export const projectsData: ProjectItem[] = [
   {
@@ -54,15 +66,31 @@ export const projectsData: ProjectItem[] = [
     cloudDevOps: ['Render', 'GitLab CI/CD'],
     platform: 'Mobile',
     hasFigma: true,
+    apk:'https://drive.google.com/file/d/1ZNZ4Gptm4n48MNPdZPWvNXr2x8tH5Ki8/view?usp=sharing',
     serviceLinks: [
       { name: 'Jira Board', url: 'https://jira.atlassian.net/' },
       { name: 'MongoDB Atlas', url: 'https://cloud.mongodb.com/' },
       { name: 'Firebase Auth', url: 'https://console.firebase.google.com/' },
       { name: 'Render Backend', url: 'https://render.com/' }
     ],
+    galery:[
+      mam1,
+      mam2,
+      mam3,
+      mam4,
+      mam5,
+      mam6,
+      mam7,
+      mam8,
+      mam9,
+      mam10,
+      mam11,
+      mam12
+    ],
     company:"OWNER",
     tags: ['React Native', 'Expo', 'MongoDB Atlas', 'Laravel'],
-    accentColor: 'from-purple-500/20 to-pink-500/20'
+    accentColor: 'from-purple-500/20 to-pink-500/20',
+    logo:mamacare
   },
 
   {
