@@ -34,6 +34,13 @@ import back2 from '../../../assets/back2.png';
 import back3 from '../../../assets/back3.png';
 import back4 from '../../../assets/back5.png';
 import back5 from '../../../assets/back5.png';
+import logoResa from '../../../assets/logoResa.png';
+import resa from '../../../assets/resa.jpeg';
+import resa1 from '../../../assets/resa1.jpeg';
+import resa2 from '../../../assets/resa2.jpeg';
+import resa3 from '../../../assets/resa3.jpeg';
+import resa4 from '../../../assets/resa4.jpeg';
+import resa5 from '../../../assets/resa5.jpeg';
 
 
 export const projectsData: ProjectItem[] = [
@@ -49,16 +56,13 @@ export const projectsData: ProjectItem[] = [
     cloudDevOps: [],
     platform: 'Full-Stack',
     hasFigma: true,
-    serviceLinks: [
-      { name: 'Jira (Scrum)', url: '' },
-      { name: 'Expo Dashboard', url: '' },
-      { name: 'Firebase Console', url: '' },
-      { name: 'Render API', url: '' },
-      { name: 'Figma Prototyping', url: '' }
-    ],
+  galery:[
+resa,resa1,resa2,resa3,resa4,resa5
+  ],
     company:"COMPANY",
     tags: ['React Native', 'Redux', 'MySQL'],
-    accentColor: 'from-[#0052FF]/20 to-purple-600/20'
+    accentColor: 'from-[#0052FF]/20 to-purple-600/20',
+    logo:logoResa
   },
   {
     id: 'mamacare_frontend',
