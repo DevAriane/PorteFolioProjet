@@ -197,6 +197,12 @@
       "shortDescription": "Multi-restaurant food ordering and delivery mobile platform with real-time GPS tracking.",
       "longDescription": "Foodgo is a comprehensive food ordering and delivery mobile application built with React Native and Expo. The platform connects customers, restaurants, and drivers in a unified ecosystem: customers browse nearby restaurants, customize their dishes, and track their orders in real time on an interactive map. The app features a multi-restaurant cart system, a dedicated driver dashboard with automatic order assignment, GPS tracking via WebSocket, and complete order lifecycle management (pending, assigned, picked up, delivered). Everything is secured with Firebase Authentication, powered by Firestore, and deployed via EAS Build. The application is fully internationalized in French, English, and German."
     }
+  },
+  "mamacare":{
+     "title": "MamaCare Backend - Maternal and Infant Health API",
+    "shortDescription": "Secure API for managing pregnancy follow-up, infant health, vaccinations, and medical appointments.",
+    "longDescription": "The MamaCare backend is a RESTful API built with Laravel 12, designed to centralize and secure health data for mothers and children. It handles authentication for users and healthcare professionals, personalized pregnancy tracking (key dates, medical measurements, symptoms), pediatric records (growth, vaccinations, symptoms), appointment scheduling, notification delivery (push, SMS, email), as well as health center management and professional access control. Its modular architecture and encryption protocols ensure the confidentiality of medical data and regulatory compliance. The backend powers both the mobile application and the administration dashboard, providing a seamless experience even with limited connectivity through adapted synchronization mechanisms."
+  
   }
 
 }

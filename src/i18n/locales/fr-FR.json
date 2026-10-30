@@ -197,5 +197,10 @@
       "shortDescription": "Plateforme mobile de commande et livraison de repas multi-restaurants avec suivi GPS en temps réel.",
       "longDescription": "Foodgo est une application mobile complète de commande et de livraison de repas développée avec React Native et Expo. La plateforme connecte clients, restaurants et livreurs dans un écosystème unifié : les clients parcourent les restaurants à proximité, personnalisent leurs plats et suivent leur commande en temps réel sur une carte interactive. L'application intègre un système de panier multi-restaurants, un tableau de bord dédié aux livreurs avec affectation automatique des commandes, un suivi GPS via WebSocket et une gestion complète du cycle de vie des commandes (en attente, assignée, en cours de livraison, livrée). Le tout est sécurisé par Firebase Authentication, propulsé par Firestore et déployé via EAS Build. L'application est entièrement internationalisée en français, anglais et allemand."
     }
+  },
+  "mamacare":{
+      "title": "Backend MamaCare - API de santé maternelle et infantile",
+    "shortDescription": "API sécurisée pour la gestion du suivi de grossesse, de la santé infantile, des vaccinations et des rendez-vous médicaux.",
+    "longDescription": "Le backend de MamaCare est une API REST développée avec Laravel 12, conçue pour centraliser et sécuriser les données de santé des mères et des enfants. Il gère l'authentification des utilisatrices et des professionnels de santé, le suivi personnalisé de la grossesse (dates clés, mesures médicales, symptômes), les dossiers pédiatriques (croissance, vaccinations, symptômes), la prise de rendez-vous, l'envoi de notifications (push, SMS, email), ainsi que la gestion des centres de santé et des accès professionnels. L'architecture modulaire et les protocoles de chiffrement garantissent la confidentialité des données médicales et la conformité aux réglementations. Le backend alimente l'application mobile et le tableau de bord d'administration, offrant une expérience fluide même en cas de connectivité limitée grâce à des mécanismes de synchronisation adaptés."
   }
 }
