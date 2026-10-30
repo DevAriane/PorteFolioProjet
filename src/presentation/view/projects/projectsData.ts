@@ -29,6 +29,12 @@ import mam9 from '../../../assets/mam9.jpeg';
 import mam10 from '../../../assets/mam10.jpeg';
 import mam11 from '../../../assets/mam11.jpeg';
 import mam12 from '../../../assets/mam12.jpeg';
+import back1 from '../../../assets/back1.png';
+import back2 from '../../../assets/back2.png';
+import back3 from '../../../assets/back3.png';
+import back4 from '../../../assets/back5.png';
+import back5 from '../../../assets/back5.png';
+
 
 export const projectsData: ProjectItem[] = [
   {
@@ -55,12 +61,12 @@ export const projectsData: ProjectItem[] = [
     accentColor: 'from-[#0052FF]/20 to-purple-600/20'
   },
   {
-    id: 'mamacare',
+    id: 'mamacare_frontend',
     titleKey: 'project_mamacare_title',
     descKey: 'project_mamacare_desc',
     longDescKey: 'project_mamacare_long',
     language: 'TypeScript',
-    frameworks: ['React Native', 'Expo 54.0', 'Laravel 11'],
+    frameworks: ['React Native', 'Expo 54.0'],
     architecture: ['Three-Tier Architecture'],
     database: ['MongoDB Atlas'],
     cloudDevOps: ['Render', 'GitLab CI/CD'],
@@ -69,9 +75,9 @@ export const projectsData: ProjectItem[] = [
     apk:'https://drive.google.com/file/d/1ZNZ4Gptm4n48MNPdZPWvNXr2x8tH5Ki8/view?usp=sharing',
     serviceLinks: [
       { name: 'Jira Board', url: 'https://jira.atlassian.net/' },
-      { name: 'MongoDB Atlas', url: 'https://cloud.mongodb.com/' },
-      { name: 'Firebase Auth', url: 'https://console.firebase.google.com/' },
-      { name: 'Render Backend', url: 'https://render.com/' }
+      { name: 'MongoDB Atlas', url: 'https://cloud.mongodb.com/v2/69fa8e001f2aeda491524334#/clusters' },
+      { name: 'Firebase Auth', url: 'https://console.firebase.google.com/u/0/project/mamacare-15a8c/settings/general/android:com.mamacare' },
+      { name: 'Render Backend', url: 'https://dashboard.render.com/web/srv-d7v3s5jtqb8s73f470j0' }
     ],
     galery:[
       mam1,
@@ -89,6 +95,42 @@ export const projectsData: ProjectItem[] = [
     ],
     company:"OWNER",
     tags: ['React Native', 'Expo', 'MongoDB Atlas', 'Laravel'],
+    accentColor: 'from-purple-500/20 to-pink-500/20',
+    logo:mamacare
+  },
+   {
+    id: 'mamacare-backend',
+    titleKey: 'mamacare.title',
+    descKey: 'mamacare.shortDescription',
+    longDescKey: 'mamacare.longDescription',
+    language: 'PHP',
+    frameworks: ['Laravel','Livewire'],
+    architecture: ['MVC'],
+    database: ['MongoDB Atlas'],
+    cloudDevOps: ['Render', 'GitLab CI/CD'],
+    platform: 'Web',
+    hasFigma: true,
+    serviceLinks: [
+       {
+      name: "Live Demo",
+      url: "https://mamacare-backend-xyhh.onrender.com",
+      icon: "globe"
+    },
+    {
+      name: "GitLab Repository",
+      url: "https://gitlab.com/mamacare/mamacare_backend",
+      icon: "gitlab"
+    },
+      { name: 'Jira Board', url: 'https://jira.atlassian.net/' },
+      { name: 'MongoDB Atlas', url: 'https://cloud.mongodbcomv269fa8e001f2aeda491524334#clusters' },
+      { name: 'Firebase Auth', url: 'https:/consolefirebasegooglecomu0projectmamacare-15a8csettings/general/android:com.mamacare' },
+      { name: 'Render Backend', url: 'https://dashboard.render.com/web/srv-d7v3s5jtqb8s73f470j0' }
+    ],
+    galery:[
+     back1,back2,back3,back4,back5
+    ],
+    company:"OWNER",
+    tags: ['MongoDB Atlas', 'Laravel'],
     accentColor: 'from-purple-500/20 to-pink-500/20',
     logo:mamacare
   },
