@@ -101,8 +101,9 @@ const downloadsFunction = () => {
           </RouterLink>
           
           <a 
-            href="public/CV_2026-09-30_ARIANE JUANITA_ATEUMO_TesteuSE_Développeur_d_Application_QApdf" 
+            href="/CV_2026-09-30_ARIANE JUANITA_ATEUMO_TesteuSE_Développeur_d_Application_QA.pdf" 
             download="CV_ARIANE_JUANITA_ATEUMO.pdf"
+            target="_blank"
           >
             <AppBoutton :title="t('downloadscv')" mode="vide" :icon="Download" @click="downloadsFunction" />
           </a>
