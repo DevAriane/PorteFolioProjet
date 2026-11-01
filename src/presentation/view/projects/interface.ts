@@ -15,7 +15,7 @@ export interface ProjectItem {
   architecture: string[];     
   database: string[];         
   cloudDevOps: string[];      
-  platform: 'Mobile' | 'Web' | 'Full-Stack' | 'Desktop';
+  platform: 'Mobile' | 'Web' | 'Full-Stack' | 'Desktop'| 'Backend';
   hasFigma: boolean;          
 webUrl?: string;
   serviceLinks?: ProjectServiceLink[];

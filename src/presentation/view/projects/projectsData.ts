@@ -64,6 +64,26 @@ resa,resa1,resa2,resa3,resa4,resa5
     accentColor: 'from-[#0052FF]/20 to-purple-600/20',
     logo:logoResa
   },
+    {
+    id: 'backend_livraison',
+    titleKey: '',
+    descKey: '',
+    longDescKey: '',
+    language: 'PHP',
+    frameworks: ['Laravel', 'Livewire'],
+    architecture: ['MVC'],
+    database: ['MySQL'],
+    cloudDevOps: [],
+    platform: 'Backend',
+    hasFigma: true,
+  galery:[
+resa,resa1,resa2,resa3,resa4,resa5
+  ],
+    company:"COMPANY",
+    tags: ['React Native', 'Redux', 'MySQL'],
+    accentColor: 'from-[#0052FF]/20 to-purple-600/20',
+    logo:logoResa
+  },
   {
     id: 'mamacare_frontend',
     titleKey: 'project_mamacare_title',
