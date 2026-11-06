@@ -200,7 +200,7 @@
   },
   "mamacare":{
       "title": "Backend MamaCare - API de santé maternelle et infantile",
-    "shortDescription": "API sécurisée pour la gestion du suivi de grossesse, de la santé infantile, des vaccinations et des rendez-vous médicaux.",
+    "shortDescription": "API sécurisée pour la gestion du suivi de grossesse, de la santé infantile, des vaccinations et des rendez-vous médicaux. email:admin@gmail.com, password:admin2026",
     "longDescription": "Le backend de MamaCare est une API REST développée avec Laravel 12, conçue pour centraliser et sécuriser les données de santé des mères et des enfants. Il gère l'authentification des utilisatrices et des professionnels de santé, le suivi personnalisé de la grossesse (dates clés, mesures médicales, symptômes), les dossiers pédiatriques (croissance, vaccinations, symptômes), la prise de rendez-vous, l'envoi de notifications (push, SMS, email), ainsi que la gestion des centres de santé et des accès professionnels. L'architecture modulaire et les protocoles de chiffrement garantissent la confidentialité des données médicales et la conformité aux réglementations. Le backend alimente l'application mobile et le tableau de bord d'administration, offrant une expérience fluide même en cas de connectivité limitée grâce à des mécanismes de synchronisation adaptés."
   }
 }

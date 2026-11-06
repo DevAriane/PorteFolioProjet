@@ -200,7 +200,7 @@
   },
   "mamacare":{
      "title": "MamaCare Backend - Maternal and Infant Health API",
-    "shortDescription": "Secure API for managing pregnancy follow-up, infant health, vaccinations, and medical appointments.",
+    "shortDescription": "Secure API for managing pregnancy follow-up, infant health, vaccinations, and medical appointments.email:admin@gmail.com, password:admin2026",
     "longDescription": "The MamaCare backend is a RESTful API built with Laravel 12, designed to centralize and secure health data for mothers and children. It handles authentication for users and healthcare professionals, personalized pregnancy tracking (key dates, medical measurements, symptoms), pediatric records (growth, vaccinations, symptoms), appointment scheduling, notification delivery (push, SMS, email), as well as health center management and professional access control. Its modular architecture and encryption protocols ensure the confidentiality of medical data and regulatory compliance. The backend powers both the mobile application and the administration dashboard, providing a seamless experience even with limited connectivity through adapted synchronization mechanisms."
   
   }
