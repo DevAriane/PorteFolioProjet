@@ -204,9 +204,9 @@
     "longDescription": "Le backend de MamaCare est une API REST développée avec Laravel 12, conçue pour centraliser et sécuriser les données de santé des mères et des enfants. Il gère l'authentification des utilisatrices et des professionnels de santé, le suivi personnalisé de la grossesse (dates clés, mesures médicales, symptômes), les dossiers pédiatriques (croissance, vaccinations, symptômes), la prise de rendez-vous, l'envoi de notifications (push, SMS, email), ainsi que la gestion des centres de santé et des accès professionnels. L'architecture modulaire et les protocoles de chiffrement garantissent la confidentialité des données médicales et la conformité aux réglementations. Le backend alimente l'application mobile et le tableau de bord d'administration, offrant une expérience fluide même en cas de connectivité limitée grâce à des mécanismes de synchronisation adaptés."
   },
   "pregnancy_tracking": "Suivi de grossesse intelligent — React Native/Expo, API Laravel 12, calculs automatiques (DPA, semaine, trimestre), graphiques avec react-native-chart-kit, notifications via Firebase Cloud Messaging.",
-  "child_tracking": "Suivi de l’enfant (0-5 ans) — React Native, API Laravel, react-native-chart-kit, données OMS pour les percentiles, stockage MySQL/PostgreSQL.",
-  "vaccination": "Vaccination avec rappels automatiques — Laravel Scheduler + Queues, Firebase Cloud Messaging (@react-native-firebase/messaging), expo-notifications, SMS Twilio/Orange, génération PDF avec DomPDF.",
-  "education_nutrition": "Éducation, nutrition et journal alimentaire — CMS Laravel, React Native, AsyncStorage pour le mode hors ligne, multilingue FR/EN/WO/BM, PDF/Excel pour les exports.",
+  "child_tracking": "Suivi de l’enfant (0-5 ans) — React Native, API Laravel, react-native-chart-kit, données OMS pour les percentiles, stockage MongoDB.",
+  "vaccination": "Vaccination avec rappels automatiques — Laravel Scheduler + Queues, Firebase Cloud Messaging react-native-firebase/messaging, expo-notifications,  génération PDF avec DomPDF.",
+  "education_nutrition": "Éducation, nutrition et journal alimentaire — CMS Laravel, React Native, AsyncStorage pour le mode hors ligne, PDF/Excel pour les exports.",
   
   "secure_auth": "Authentification sécurisée multi-rôles — Firebase Authentication, Firebase Admin SDK, Laravel Sanctum, tokens Firebase, code PIN dans AsyncStorage/SecureStore, chiffrement RGPD, MongoDB pour le stockage des sessions, logs et données utilisateurs.",
   "admin_dashboard": "Tableau de bord administrateur — Livewire, API Laravel, Chart.js/Recharts, MongoDB pour les agrégations et les collections de statistiques.",
@@ -236,7 +236,8 @@
     "creation_integration_api": "Création et intégration d'API REST pour les échanges de données entre les différents utilisateurs.",
     "gestion_roles_autorisations": "Gestion des rôles et des autorisations d'accès aux données.",
     "tests_api_postman": "Réalisation de tests fonctionnels et tests d'intégration des API avec Postman.",
-    "verification_coherence_donnees": "Vérification de la cohérence des données échangées entre les services."
+    "verification_coherence_donnees": "Vérification de la cohérence des données échangées entre les services.",
+    "keyfeature":"Quelques fonctionnalités de l'application"
   
   
   

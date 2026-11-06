@@ -206,9 +206,9 @@
   },
   
   "pregnancy_tracking": "Smart pregnancy tracking — React Native/Expo, Laravel 12 API, automatic calculations (EDD, week, trimester), charts with react-native-chart-kit, notifications via Firebase Cloud Messaging.",
-  "child_tracking": "Child growth tracking (0-5 years) — React Native, Laravel API, react-native-chart-kit, WHO data for percentiles, MySQL/PostgreSQL storage.",
-  "vaccination": "Vaccination with automated reminders — Laravel Scheduler + Queues, Firebase Cloud Messaging (@react-native-firebase/messaging), expo-notifications, Twilio/Orange SMS, PDF generation with DomPDF.",
-  "education_nutrition": "Education, nutrition and food diary — Laravel CMS, React Native, AsyncStorage for offline mode, FR/EN/WO/BM multilingual, PDF/Excel for exports.",
+  "child_tracking": "Child growth tracking (0-5 years) — React Native, Laravel API, react-native-chart-kit, WHO data for percentiles, MongoDB storage.",
+  "vaccination": "Vaccination with automated reminders — Laravel Scheduler + Queues, Firebase Cloud Messaging react-native-firebase/messaging, expo-notifications, PDF generation with DomPDF.",
+  "education_nutrition": "Education, nutrition and food diary — Laravel CMS, React Native, AsyncStorage for offline mode,PDF/Excel for exports.",
 
   "secure_auth": "Secure multi-role authentication — Firebase Authentication, Firebase Admin SDK, Laravel Sanctum, Firebase tokens, PIN code in AsyncStorage/SecureStore, GDPR encryption, MongoDB for session, log, and user data storage.",
   "admin_dashboard": "Administrator dashboard — Livewire, Laravel API, Chart.js/Recharts, MongoDB for aggregations and statistics collections.",
@@ -239,7 +239,9 @@
     "creation_integration_api": "Creation and integration of REST APIs for data exchange between different users.",
     "gestion_roles_autorisations": "Management of roles and data access permissions.",
     "tests_api_postman": "Execution of functional tests and API integration tests using Postman.",
-    "verification_coherence_donnees": "Verification of the consistency of data exchanged between services."
+    "verification_coherence_donnees": "Verification of the consistency of data exchanged between services.",
+        "keyfeature":"Key Application Features"
+
   
   
   

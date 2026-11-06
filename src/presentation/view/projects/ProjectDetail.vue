@@ -40,6 +40,30 @@ const { t } = useI18n({ useScope: 'global' });
           {{ t(project.longDescKey) }}
         </p>
 
+        <div class="space-y-4">
+  <h3 class="text-lg font-semibold text-slate-800 dark:text-slate-100 flex items-start gap-2">
+    <span>{{ t('keyfeature') }}</span>
+  </h3>
+
+  <ul class="grid grid-cols-1 md:grid-cols-2 gap-3">
+    <li 
+      v-for="(value, idx) in project.fonction" 
+      :key="idx"
+      class="flex items-start gap-3 p-3.5 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200/80 dark:border-slate-700/60 hover:border-emerald-500/40 dark:hover:border-emerald-500/40 transition-all duration-200 group"
+    >
+      <div class="mt-0.5 p-1 rounded-lg bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 group-hover:bg-emerald-500 group-hover:text-white transition-colors duration-200 shrink-0">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+        </svg>
+      </div>
+
+      <p class="text-sm font-medium text-slate-700 dark:text-slate-300 leading-relaxed">
+        {{ t(String(value.textKey)) }}
+      </p>
+    </li>
+  </ul>
+</div>
+
         <div class="pt-4 space-y-3">
           <h4 class="text-xs font-bold uppercase tracking-wider text-slate-400">{{ t('connected_services') }}</h4>
           <div class="flex flex-wrap gap-3">
