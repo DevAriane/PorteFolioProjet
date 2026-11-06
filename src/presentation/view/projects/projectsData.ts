@@ -1,4 +1,4 @@
-import { type ProjectItem } from './interface';
+import { type ProjectItem,type Fonction } from './interface';
 import Restaurant from '../../../assets/Restaurant.png';
 import Depenselogo from '../../../assets/logoDepense.png';
 import Depense from '../../../assets/depense.png';
@@ -41,7 +41,6 @@ import resa2 from '../../../assets/resa2.jpeg';
 import resa3 from '../../../assets/resa3.jpeg';
 import resa4 from '../../../assets/resa4.jpeg';
 import resa5 from '../../../assets/resa5.jpeg';
-
 
 export const projectsData: ProjectItem[] = [
   {
@@ -88,7 +87,7 @@ resa,resa1,resa2,resa3,resa4,resa5
     id: 'mamacare_frontend',
     titleKey: 'project_mamacare_title',
     descKey: 'project_mamacare_desc',
-    longDescKey: 'project_mamacare_long',
+    longDescKey: 'mamacare_description',
     language: 'TypeScript',
     frameworks: ['React Native', 'Expo 54.0'],
     architecture: ['Three-Tier Architecture'],
@@ -120,13 +119,28 @@ resa,resa1,resa2,resa3,resa4,resa5
     company:"OWNER",
     tags: ['React Native', 'Expo', 'MongoDB Atlas', 'Laravel'],
     accentColor: 'from-purple-500/20 to-pink-500/20',
-    logo:mamacare
+    logo:mamacare,
+    fonction:[
+      {
+        id:'1', textKey:'pregnancy_tracking'
+      },
+       {
+        id:'2', textKey:'child_tracking'
+      },
+       {
+        id:'3', textKey:'vaccination'
+      },
+       {
+        id:'4', textKey:'education_nutrition'
+      }
+   
+    ],
   },
    {
     id: 'mamacare-backend',
     titleKey: 'mamacare.title',
     descKey: 'mamacare.shortDescription',
-    longDescKey: 'mamacare.longDescription',
+    longDescKey: 'mamacare_backend_description',
     language: 'PHP',
     frameworks: ['Laravel','Livewire'],
     architecture: ['MVC'],
@@ -157,7 +171,24 @@ resa,resa1,resa2,resa3,resa4,resa5
     company:"OWNER",
     tags: ['MongoDB Atlas', 'Laravel'],
     accentColor: 'from-purple-500/20 to-pink-500/20',
-    logo:mamacare
+    logo:mamacare,
+       fonction:[
+      {
+        id:'1', textKey:'secure_auth'
+      },
+       {
+        id:'2', textKey:'admin_dashboard'
+      },
+       {
+        id:'3', textKey:'multichannel_notifications'
+      },
+       {
+        id:'4', textKey:'healthcare_professionals_space'
+      }
+   
+    ],
+    email:"admin@gmail.com",
+    password:'admin2026'
   },
 
   {

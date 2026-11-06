@@ -202,5 +202,45 @@
       "title": "Backend MamaCare - API de santé maternelle et infantile",
     "shortDescription": "API sécurisée pour la gestion du suivi de grossesse, de la santé infantile, des vaccinations et des rendez-vous médicaux.",
     "longDescription": "Le backend de MamaCare est une API REST développée avec Laravel 12, conçue pour centraliser et sécuriser les données de santé des mères et des enfants. Il gère l'authentification des utilisatrices et des professionnels de santé, le suivi personnalisé de la grossesse (dates clés, mesures médicales, symptômes), les dossiers pédiatriques (croissance, vaccinations, symptômes), la prise de rendez-vous, l'envoi de notifications (push, SMS, email), ainsi que la gestion des centres de santé et des accès professionnels. L'architecture modulaire et les protocoles de chiffrement garantissent la confidentialité des données médicales et la conformité aux réglementations. Le backend alimente l'application mobile et le tableau de bord d'administration, offrant une expérience fluide même en cas de connectivité limitée grâce à des mécanismes de synchronisation adaptés."
-  }
+  },
+  "pregnancy_tracking": "Suivi de grossesse intelligent — React Native/Expo, API Laravel 12, calculs automatiques (DPA, semaine, trimestre), graphiques avec react-native-chart-kit, notifications via Firebase Cloud Messaging.",
+  "child_tracking": "Suivi de l’enfant (0-5 ans) — React Native, API Laravel, react-native-chart-kit, données OMS pour les percentiles, stockage MySQL/PostgreSQL.",
+  "vaccination": "Vaccination avec rappels automatiques — Laravel Scheduler + Queues, Firebase Cloud Messaging (@react-native-firebase/messaging), expo-notifications, SMS Twilio/Orange, génération PDF avec DomPDF.",
+  "education_nutrition": "Éducation, nutrition et journal alimentaire — CMS Laravel, React Native, AsyncStorage pour le mode hors ligne, multilingue FR/EN/WO/BM, PDF/Excel pour les exports.",
+  
+  "secure_auth": "Authentification sécurisée multi-rôles — Firebase Authentication, Firebase Admin SDK, Laravel Sanctum, tokens Firebase, code PIN dans AsyncStorage/SecureStore, chiffrement RGPD, MongoDB pour le stockage des sessions, logs et données utilisateurs.",
+  "admin_dashboard": "Tableau de bord administrateur — Livewire, API Laravel, Chart.js/Recharts, MongoDB pour les agrégations et les collections de statistiques.",
+  "multichannel_notifications": "Moteur de notifications multicanales — Firebase Cloud Messaging, Laravel Queues, MongoDB pour l’historique des notifications, les templates et le suivi de délivrabilité.",
+  "healthcare_professionals_space": "Espace professionnels de santé — Laravel API, React Native, Firebase Auth, contrôle d’accès par rôles et permissions, MongoDB pour les dossiers patients, les consultations et les accès professionnels.",
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "mamacare_description": "MamaCare est une application mobile de santé maternelle et infantile destinée aux femmes enceintes et aux mères d’enfants de 0 à 5 ans. Elle propose un suivi de grossesse personnalisé (calcul de la date d’accouchement, conseils hebdomadaires, courbes de poids, alertes sur les signes de danger) et un suivi complet de l’enfant (mensurations, courbes de croissance OMS, journal de développement, alimentation). La vaccination est gérée avec un calendrier officiel, des rappels automatiques par notification push et la génération d’un carnet PDF. L’application intègre également un module d’urgences avec géolocalisation des centres de santé et appel direct, ainsi qu’un espace d’éducation et de nutrition (articles validés par des médecins, recettes locales, journal alimentaire, quiz). Un mode hors ligne permet la saisie et la consultation des données sans connexion, avec synchronisation automatique. Les professionnels de santé (médecins, sages-femmes) disposent d’un espace dédié pour suivre leurs patientes, saisir les contrôles prénataux et consulter les dossiers médicaux avec consentement. L’authentification repose sur Firebase Authentication avec vérification obligatoire à deux facteurs (sans SMS), et les données sont sécurisées et chiffrées conformément au RGPD. Le backend utilise Laravel 12 avec MongoDB pour le stockage des données, et l’application mobile est développée avec React Native/Expo.",
+
+  "mamacare_backend_description": "Le backend de MamaCare est une API REST développée avec Laravel 12, assurant une authentification sécurisée basée sur Firebase et Sanctum, avec vérification systématique des tokens Firebase. Elle gère l’ensemble des entités du système : les utilisatrices (CRUD complet), les grossesses, les enfants, les mesures de santé (poids, tension, etc.), les symptômes, les vaccinations, les rendez-vous, les centres de santé, les professionnels de santé, les notifications (push, email), le contenu éducatif, les recettes et la nutrition, ainsi que les urgences. L’API propose également la génération de rapports PDF et Excel, des fonctionnalités d’analytique et de statistiques, des modèles de Machine Learning pour la prédiction des risques de grossesse et de malnutrition, la synchronisation hors ligne, le chiffrement des données sensibles, la conformité RGPD, la journalisation et l’audit, et elle est documentée via OpenAPI/Swagger. La base de données MongoDB stocke les entités principales sous forme de collections : utilisatrices (users), grossesses (pregnancies), enfants (children), mesures de santé (health_measurements), vaccinations (vaccinations), consultations et rendez-vous (appointments, consultations), centres de santé (health_centers), professionnels de santé (professionals), notifications (notifications), contenus éducatifs (educational_contents), recettes (recipes), journal alimentaire (food_journals), urgences (emergencies) et logs d’audit (audit_logs).",
+  "connection_info": "Informations de connexion",
+  "email":"Email",
+  "password":"Mot de passe",
+  "dev_web_mobile": "Participation au développement et à l'amélioration d'applications web et mobiles.",
+    "tests_fonctionnels": "Réalisation de tests fonctionnels avant les mises en production.",
+    "gestion_anomalies": "Identification, documentation et suivi des anomalies.",
+    "deploiements": "Participation aux déploiements des applications chez les clients.",
+    "verification_installation": "Vérification du bon fonctionnement des applications après installation.",
+    "resolution_incidents": "Collaboration avec l'équipe technique pour l'analyse et la résolution des incidents.",
+    "dev_react_native": "Développement de fonctionnalités applicatives avec React Native et TypeScript.",
+    "dev_api_laravel": "Développement et intégration d'API REST avec Laravel.",
+    "gestion_echanges_backend": "Gestion des échanges entre les applications et les services backend.",
+    "integration_firebase_notifs": "Intégration de services Firebase et de notifications.",
+    "tests_api_postman": "Réalisation de tests API avec Postman.",
+    "livraison_amelioration_continue": "Participation à la livraison et à l'amélioration continue de l'application.",
+    "dev_backend_laravel": "Développement de fonctionnalités backend avec PHP et Laravel.",
+    "conception_modelisation_mysql": "Conception, modélisation et gestion des données avec MySQL.",
+    "creation_integration_api": "Création et intégration d'API REST pour les échanges de données entre les différents utilisateurs.",
+    "gestion_roles_autorisations": "Gestion des rôles et des autorisations d'accès aux données.",
+    "tests_api_postman": "Réalisation de tests fonctionnels et tests d'intégration des API avec Postman.",
+    "verification_coherence_donnees": "Vérification de la cohérence des données échangées entre les services."
+  
+  
+  
+
+
+
 }

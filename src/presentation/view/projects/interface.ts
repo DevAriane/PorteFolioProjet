@@ -8,7 +8,7 @@ export interface ProjectItem {
   id: string;
   titleKey: string;           
   descKey: string;            
-  longDescKey?: string;       
+  longDescKey: string;       
   date?:Date;
   language: 'TypeScript' | 'PHP' | 'JavaScript' | 'Dart';
   frameworks: string[];       
@@ -26,4 +26,13 @@ webUrl?: string;
   apk?:File | Blob | String;
   galery?:string[];
   logo?:string;
+  fonction?:Fonction[];
+  email?:String;
+  password?:String;
+}
+
+export interface Fonction{
+  id: String;
+  textKey:String;
+
 }

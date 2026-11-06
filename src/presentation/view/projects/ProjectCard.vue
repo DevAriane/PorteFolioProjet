@@ -77,6 +77,29 @@ const downloadApk = (apk?: File | Blob | string | String) => {
         </span>
       </div>
 
+  <div v-if="project.password" class="rounded-xl border border-slate-200 bg-slate-50/50 p-4 shadow-sm backdrop-blur-sm dark:border-slate-800 dark:bg-slate-900/50">
+  <div class="flex items-center gap-2 pb-3 border-b border-slate-200 dark:border-slate-800">
+    <svg class="h-4 w-4 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z" />
+    </svg>
+    <h4 class="text-xs font-semibold uppercase tracking-wider text-slate-600 dark:text-slate-400">
+  {{ t('connection_info') }}
+    </h4>
+  </div>
+
+  <div class="mt-3 space-y-2 text-sm">
+    <div class="flex items-center justify-between">
+      <span class="text-slate-500 dark:text-slate-400">{{ t('email') }} :</span>
+      <span class="font-medium text-slate-800 dark:text-slate-200 select-all">{{ project.email }}</span>
+    </div>
+
+    <div class="flex items-center justify-between">
+      <span class="text-slate-500 dark:text-slate-400">{{ t('password') }} :</span>
+      <span class="font-mono font-medium text-slate-800 dark:text-slate-200 bg-slate-200/60 dark:bg-slate-800 px-2 py-0.5 rounded select-all">{{ project.password }}</span>
+    </div>
+  </div>
+</div>
+
  <div class="flex items-center justify-between text-xs">
   
   <span class="font-semibold px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800/80 text-slate-700 dark:text-slate-300 border border-slate-200/60 dark:border-slate-700/60 shadow-sm">

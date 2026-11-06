@@ -85,9 +85,9 @@ const closeModal = () => {
           <div class="space-y-3">
             <h4 class="text-sm font-semibold uppercase tracking-wider text-slate-400">{{ t('missions_title') }}</h4>
             <ul class="space-y-2">
-              <li v-for="(mission, idx) in [1, 2, 3]" :key="idx" class="flex items-start gap-3 text-sm text-slate-600 dark:text-slate-300">
+              <li v-for="(mission, idx) in  selectedExp.mission" :key="idx" class="flex items-start gap-3 text-sm text-slate-600 dark:text-slate-300">
                 <CheckCircle2 class="w-5 h-5 text-emerald-500 flex-shrink-0 mt-0.5" />
-                <span>{{ t('mission_default') }}</span>
+                <span>{{t(String(mission.missionKey))}}</span>
               </li>
             </ul>
           </div>

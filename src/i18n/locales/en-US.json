@@ -203,6 +203,47 @@
     "shortDescription": "Secure API for managing pregnancy follow-up, infant health, vaccinations, and medical appointments",
     "longDescription": "The MamaCare backend is a RESTful API built with Laravel 12, designed to centralize and secure health data for mothers and children. It handles authentication for users and healthcare professionals, personalized pregnancy tracking (key dates, medical measurements, symptoms), pediatric records (growth, vaccinations, symptoms), appointment scheduling, notification delivery (push, SMS, email), as well as health center management and professional access control. Its modular architecture and encryption protocols ensure the confidentiality of medical data and regulatory compliance. The backend powers both the mobile application and the administration dashboard, providing a seamless experience even with limited connectivity through adapted synchronization mechanisms."
   
-  }
+  },
+  
+  "pregnancy_tracking": "Smart pregnancy tracking — React Native/Expo, Laravel 12 API, automatic calculations (EDD, week, trimester), charts with react-native-chart-kit, notifications via Firebase Cloud Messaging.",
+  "child_tracking": "Child growth tracking (0-5 years) — React Native, Laravel API, react-native-chart-kit, WHO data for percentiles, MySQL/PostgreSQL storage.",
+  "vaccination": "Vaccination with automated reminders — Laravel Scheduler + Queues, Firebase Cloud Messaging (@react-native-firebase/messaging), expo-notifications, Twilio/Orange SMS, PDF generation with DomPDF.",
+  "education_nutrition": "Education, nutrition and food diary — Laravel CMS, React Native, AsyncStorage for offline mode, FR/EN/WO/BM multilingual, PDF/Excel for exports.",
+
+  "secure_auth": "Secure multi-role authentication — Firebase Authentication, Firebase Admin SDK, Laravel Sanctum, Firebase tokens, PIN code in AsyncStorage/SecureStore, GDPR encryption, MongoDB for session, log, and user data storage.",
+  "admin_dashboard": "Administrator dashboard — Livewire, Laravel API, Chart.js/Recharts, MongoDB for aggregations and statistics collections.",
+  "multichannel_notifications": "Multi-channel notification engine — Firebase Cloud Messaging, Laravel Queues, MongoDB for notification history, templates, and deliverability tracking.",
+  "healthcare_professionals_space": "Healthcare professionals portal — Laravel API, React Native, Firebase Auth, role-based access control and permissions, MongoDB for patient records, consultations, and professional access.",
+  
+  "mamacare_description": "MamaCare is a maternal and child health mobile application designed for pregnant women and mothers of children aged 0 to 5. It offers personalized pregnancy tracking (expected delivery date calculation, weekly advice, weight curves, danger sign alerts) and comprehensive child monitoring (measurements, WHO growth charts, developmental journal, nutrition). Vaccination is managed with an official schedule, automatic push notification reminders, and PDF booklet generation. The app also includes an emergency module with health center geolocation and direct calling, as well as an education and nutrition space (physician-validated articles, local recipes, food diary, quiz). An offline mode enables data entry and consultation without a connection, with automatic synchronization. Healthcare professionals (doctors, midwives) have a dedicated space to monitor their patients, enter prenatal checks, and consult medical records with consent. Authentication relies on Firebase Authentication with mandatory two-factor verification (without SMS), and data is secured and encrypted in compliance with GDPR. The backend uses Laravel 12 with MongoDB for data storage, and the mobile application is developed with React Native/Expo.",
+  
+  
+  "mamacare_backend_description": "The MamaCare backend is a REST API developed with Laravel 12, providing secure authentication based on Firebase and Sanctum, with systematic verification of Firebase tokens. It manages all system entities: users (complete CRUD), pregnancies, children, health measurements (weight, blood pressure, etc.), symptoms, vaccinations, appointments, health centers, healthcare professionals, notifications (push,  email), educational content, recipes and nutrition, as well as emergencies. The API also features PDF and Excel report generation, analytics and statistics functionalities, Machine Learning models for predicting pregnancy and malnutrition risks, offline synchronization, sensitive data encryption, GDPR compliance, logging and auditing, and is documented via OpenAPI/Swagger. The MongoDB database stores the main entities as collections: users (users), pregnancies (pregnancies), children (children), health measurements (health_measurements), vaccinations (vaccinations), consultations and appointments (appointments, consultations), health centers (health_centers), professionals (professionals), notifications (notifications), educational contents (educational_contents), recipes (recipes), food journals (food_journals), emergencies (emergencies), and audit logs (audit_logs).",
+  "connection_info": "Connexion information",
+  "email":"Email",
+  "password":"Password",
+  "dev_web_mobile": "Participation in the development and improvement of web and mobile applications.",
+    "tests_fonctionnels": "Execution of functional tests prior to production releases.",
+    "gestion_anomalies": "Identification, documentation, and tracking of bugs/issues.",
+    "deploiements": "Participation in application deployments at client sites.",
+    "verification_installation": "Verification of proper application functionality post-installation.",
+    "resolution_incidents": "Collaboration with the technical team for incident analysis and resolution.",
+    "dev_react_native": "Development of application features using React Native and TypeScript.",
+    "dev_api_laravel": "Development and integration of REST APIs with Laravel.",
+    "gestion_echanges_backend": "Management of communication between applications and backend services.",
+    "integration_firebase_notifs": "Integration of Firebase services and notifications.",
+    "tests_api_postman": "API testing using Postman.",
+    "livraison_amelioration_continue": "Participation in application delivery and continuous improvement.",
+    "dev_backend_laravel": "Development of backend features using PHP and Laravel.",
+    "conception_modelisation_mysql": "Design, modeling, and data management using MySQL.",
+    "creation_integration_api": "Creation and integration of REST APIs for data exchange between different users.",
+    "gestion_roles_autorisations": "Management of roles and data access permissions.",
+    "tests_api_postman": "Execution of functional tests and API integration tests using Postman.",
+    "verification_coherence_donnees": "Verification of the consistency of data exchanged between services."
+  
+  
+  
+
+
 
 }

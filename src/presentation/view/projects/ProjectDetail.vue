@@ -37,7 +37,7 @@ const { t } = useI18n({ useScope: 'global' });
         </h1>
 
         <p class="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
-          {{ t(project.descKey) }}
+          {{ t(project.longDescKey) }}
         </p>
 
         <div class="pt-4 space-y-3">
