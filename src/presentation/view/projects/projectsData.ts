@@ -355,7 +355,7 @@ delivery1,delivery2,delivery3
   id: "foodly-kitchen-01",
   titleKey: "projects.foodly.title",
   descKey: "projects.foodly.desc",
-  longDescKey: "projects.foodly.longDesc",
+  longDescKey: "order_restaurant_manage_desc",
 
   language: "TypeScript",
   frameworks: ["Vue 3", "Pinia", "Vue Router", "Tailwind CSS", "shadcn-vue", "Lucide Icons"],
@@ -389,12 +389,55 @@ delivery1,delivery2,delivery3
   foodly4
   ],
    logo: Restaurant,
+   fonction:[
+    {
+      id:"1",
+      textKey:'menu_categories_management'
+    },
+     {
+      id:"2",
+      textKey:'order_processing'
+    },
+     {
+      id:"3",
+      textKey:'sales_modes'
+    },
+     {
+      id:"4",
+      textKey:'price_ranges'
+    },
+    {
+      id:"5",
+      textKey:'search_suggestions'
+    },
+     {
+      id:"6",
+      textKey:'item_statistics'
+    },
+     {
+      id:"7",
+      textKey:'modular_architecture'
+    },
+     {
+      id:"8",
+      textKey:'reactive_interface'
+    },
+    {
+      id:"9",
+      textKey:'static_typing'
+    },
+     {
+      id:"10",
+      textKey:'modern_project_structure'
+    },
+    
+   ]
 },
  {
-"id": "expense-tracker-app",
-  "titleKey": "projects.expense.title",
-  "descKey": "projects.expense.desc",
-  "longDescKey": "projects.expense.longDesc",
+id: "expense-tracker-app",
+  titleKey: "projects.expense.title",
+  descKey: "projects.expense.desc",
+  longDescKey: "depense_app_desc",
 
   language: "TypeScript",
   frameworks: ["Vue 3", "Pinia", "Vue Router", "Tailwind CSS", "shadcn-vue", "Lucide Icons"],
@@ -427,6 +470,48 @@ date:"30/09/2026",
     depense3
   ],
    logo: Depenselogo,
+   fonction:[
+    {
+      id:'1',
+      textKey:'add_expense'
+    },
+     {
+      id:'2',
+      textKey:'expense_list'
+    },
+     {
+      id:'3',
+      textKey:'delete_with_confirmation'
+    },
+     {
+      id:'4',
+      textKey:'automatic_totals'
+    },
+     {
+      id:'5',
+      textKey:'filtering_and_search'
+    },
+     {
+      id:'6',
+      textKey:'data_persistence'
+    },
+     {
+      id:'7',
+      textKey:'table_sorting'
+    },
+     {
+      id:'8',
+      textKey:'dark_mode'
+    },
+     {
+      id:'9',
+      textKey:'form_validation'
+    },
+     {
+      id:'10',
+      textKey:'modular_architecture'
+    }
+   ]
 },
 
  

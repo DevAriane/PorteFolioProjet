@@ -276,7 +276,33 @@
       "push_notifications": "Push notifications: receiving updates for orders, deliveries, and driver assignments.",
       "vendor_mobile_space": "Mobile vendor space: product management, order tracking, and requesting external deliveries via a dedicated form.",
       "driver_mobile_space": "Mobile driver space: receiving missions, accepting or declining assignments, updating status (en route, delivered), and live location tracking.",
-      "history_and_ratings": "History and ratings: reviewing order/delivery history and rating vendors or delivery drivers upon receipt."
+      "history_and_ratings": "History and ratings: reviewing order/delivery history and rating vendors or delivery drivers upon receipt.",
+      "order_restaurant_manage_desc": "Order-estaurant-manage is a restaurant order-taking web application built with Vue 3, Vite, and TypeScript. It leverages a domain-driven design architecture with clearly defined business entities (categories, dishes, orders, sales modes, etc.) and a clean separation between business logic, presentation, and services. The application aims to digitize and streamline the ordering process—for either in-house staff (waiters) or online customers—providing comprehensive management of menus and orders.",
+      "menu_categories_management": "Menu and category management: Category, MenuItem, PortionSize, and Dietary entities to organize dishes, handle portion sizes, and manage dietary preferences.",
+      "order_processing": "Order intake and management: Order entity and associated logic to create, track, and update customer orders.",
+      "sales_modes": "Multiple sales modes: SalesMode entity to manage various service types (dine-in, takeout, delivery, etc.).",
+      "price_ranges": "Price ranges: PriceRange entity to define and filter dishes by price.",
+      "search_suggestions": "Search suggestions: SearchSuggestion entity to streamline dish and category searches.",
+      "item_statistics": "Item statistics: ItemStats entity to track dish performance and popularity.",
+      "modular_architecture": "Modular and scalable architecture: clear separation between domain entities, presentation logic (stores, views), and the router, simplifying maintenance and feature expansion.",
+      "reactive_interface": "Reactive user interface: powered by Vue 3 and Vite for a seamless user experience and fast development iterations.",
+      "static_typing": "Static typing: TypeScript for improved code reliability and early bug detection.",
+      "modern_project_structure": "Modern project structure: organized into assets, data, domain/entities, presentation (stores and views), router, and rxBD folders, tailored for complex business applications.",
+      "depense_app_desc": "Depense- is a personal expense tracking mini-web application built with Vue 3, TypeScript, and Tailwind CSS. It allows users to record, view, and filter their expenses while visualizing their total budget. The application emphasizes a modern interface built with Shadcn-Vue and centralized state management via Pinia. Data is persisted in LocalStorage to ensure retention across page reloads.",
+      "add_expense": "Expense tracking: record expenses with a label, amount, category (food, transport, leisure, housing, other), and date.",
+      "expense_list": "Expense list: display expenses in a table with formatted amounts.",
+      "delete_with_confirmation": "Deletion with confirmation: delete an expense after user validation.",
+      "automatic_totals": "Automatic totals: display the overall total and total per category.",
+      "filtering_and_search": "Filtering and search: filter expenses by category and search by label.",
+      "data_persistence": "Data persistence: expenses are retained across page reloads using Pinia Plugin Persistedstate and LocalStorage.",
+      "table_sorting": "Table sorting: option to sort expenses by date or amount (bonus).",
+      "dark_mode": "Dark mode: optional dark theme available (bonus).",
+      "form_validation": "Form validation: use Vee-Validate and Zod to secure user input.",
+      "modular_architecture": "Modular architecture: application structured into reusable components with Vue Router for navigation."
+    
+  
+    
+  
     
   
     

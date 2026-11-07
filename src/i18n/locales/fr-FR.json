@@ -262,7 +262,20 @@
       "push_notifications": "Notifications push : réception des mises à jour de commande, de livraison et des missions pour les livreurs.",
       "vendor_mobile_space": "Espace vendeur mobile : gestion des produits, suivi des commandes et demande de livraison externe via formulaire.",
       "driver_mobile_space": "Espace livreur mobile : réception des missions, acceptation ou refus, mise à jour du statut (en route, livré) et géolocalisation.",
-      "history_and_ratings": "Historique et notation : consultation de l’historique des commandes/livraisons et notation du vendeur ou du livreur après réception."
+      "history_and_ratings": "Historique et notation : consultation de l’historique des commandes/livraisons et notation du vendeur ou du livreur après réception.",
+      "order_restaurant_manage_desc": "Order-estaurant-manage est une application web de prise de commande pour restaurant, développée avec Vue 3, Vite et TypeScript. Elle s'appuie sur une architecture orientée domaine (domain-driven design) avec des entités métier clairement identifiées (catégories, plats, commandes, modes de vente, etc.) et une séparation entre la logique métier, la présentation et les services. L'application vise à digitaliser et simplifier le processus de commande, probablement pour un usage en salle (serveurs) ou en ligne, avec une gestion complète du menu et des commandes.",
+      "menu_categories_management": "Gestion du menu et des catégories : entités Category, MenuItem, PortionSize et Dietary pour organiser les plats, gérer les tailles de portions et les régimes alimentaires.",
+      "order_processing": "Prise et gestion des commandes : entité Order et logique associée pour créer, suivre et mettre à jour les commandes des clients.",
+      "sales_modes": "Modes de vente multiples : entité SalesMode pour gérer différents types de service (sur place, à emporter, livraison, etc.).",
+      "price_ranges": "Gammes de prix : entité PriceRange pour définir et filtrer les plats selon leur prix.",
+      "search_suggestions": "Suggestions de recherche : entité SearchSuggestion pour faciliter la recherche de plats ou de catégories.",
+      "item_statistics": "Statistiques d'articles : entité ItemStats pour suivre les performances ou la popularité des plats.",
+      "modular_architecture": "Architecture modulaire et évolutive : séparation claire entre les entités de domaine, la logique de présentation (stores, vues) et le routeur, facilitant la maintenance et l'ajout de nouvelles fonctionnalités.",
+      "reactive_interface": "Interface réactive : utilisation de Vue 3 et Vite pour une expérience utilisateur fluide et un développement rapide.",
+      "static_typing": "Typage statique : TypeScript pour une meilleure fiabilité du code et une détection précoce des erreurs.",
+      "modern_project_structure": "Structure de projet moderne : organisation par dossiers assets, data, domain/entities, presentation (stores et views), router et rxBD, adaptée à une application métier complexe."
+    
+  
     
 
 
