@@ -291,7 +291,7 @@ delivery1,delivery2,delivery3
       id: 'Foodgo',
   titleKey: 'projects.foodgo.title',
   descKey: 'projects.foodgo.shortDescription',
-  longDescKey: 'projects.foodgo.longDescription',
+  longDescKey: 'delivery_mobile_detailed_desc',
     language: 'TypeScript',
     frameworks: ['React Native', 'Expo 54.0', 'Node.JS'],
     architecture: ['Three-Tier Architecture'],
@@ -308,6 +308,48 @@ delivery1,delivery2,delivery3
   food1,food2,food3,food4,food5,food6,food7
   ],
    logo: foodgo,
+   fonction:[
+    {
+      id:"1",
+      textKey:'multi_role_account'
+    },
+     {
+      id:"2",
+      textKey:'client_addresses'
+    },
+     {
+      id:"3",
+      textKey:'vendor_product_catalog'
+    },
+     {
+      id:"4",
+      textKey:'cart_and_ordering'
+    },
+     {
+      id:"5",
+      textKey:'mobile_payment'
+    },
+     {
+      id:"6",
+      textKey:'realtime_tracking'
+    },
+     {
+      id:"7",
+      textKey:'push_notifications'
+    },
+    {
+      id:"8",
+      textKey:'vendor_mobile_space'
+    },
+     {
+      id:"9",
+      textKey:'driver_mobile_space'
+    },
+     {
+      id:"10",
+      textKey:'history_and_ratings'
+    },
+   ]
   },
   {
   id: "foodly-kitchen-01",

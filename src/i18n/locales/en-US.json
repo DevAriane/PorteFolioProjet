@@ -265,7 +265,20 @@
       "dynamic_pricing": "Dynamic pricing: delivery fees based on distance, weight, vehicle type, and configurable rules (pricing_rules).",
       "payment_invoicing": "Payment and invoicing: Mobile Money, card, cash on delivery; generation of PDF invoices and payouts to vendors.",
       "realtime_tracking": "Real-time tracking: order and delivery statuses, driver location, push notifications, and webhooks.",
-      "api_webhooks": "Documented API and webhook management: exchange logs, external partner integration, and admin dashboard."
+      "api_webhooks": "Documented API and webhook management: exchange logs, external partner integration, and admin dashboard.",
+      "delivery_mobile_detailed_desc": "The mobile portion of the delivery application allows different users to interact with the platform directly from a smartphone. It primarily targets customers, vendors (shops, restaurants, pharmacies, etc.), and delivery drivers. The mobile app enables customers to browse businesses, order products, make payments, and track their deliveries in real time. Vendors can manage products, handle orders, and initiate delivery requests. Drivers receive assignments, accept deliveries, and update status in real time. The entire system relies on the backend API for authentication, geolocation, notifications, and delivery tracking.",
+      "multi_role_account": "Multi-role account: registration and login for customers, vendors, and delivery drivers, with manual validation of professional accounts by the admin.",
+      "client_addresses": "Customer address management: saving multiple addresses (home, office, etc.) to streamline ordering and geolocation.",
+      "vendor_product_catalog": "Vendor and product catalog: browsing by business categories and subcategories, viewing available products.",
+      "cart_and_ordering": "Cart and ordering: selecting products from a single vendor, order creation, and automatic delivery dispatch.",
+      "mobile_payment": "Mobile payment: payment via Mobile Money or card, with a cash on delivery option depending on setup.",
+      "realtime_tracking": "Real-time tracking: viewing order status and driver location during delivery.",
+      "push_notifications": "Push notifications: receiving updates for orders, deliveries, and driver assignments.",
+      "vendor_mobile_space": "Mobile vendor space: product management, order tracking, and requesting external deliveries via a dedicated form.",
+      "driver_mobile_space": "Mobile driver space: receiving missions, accepting or declining assignments, updating status (en route, delivered), and live location tracking.",
+      "history_and_ratings": "History and ratings: reviewing order/delivery history and rating vendors or delivery drivers upon receipt."
+    
+  
     
   
   

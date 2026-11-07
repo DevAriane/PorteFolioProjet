@@ -251,16 +251,19 @@
       "dynamic_pricing": "Tarification dynamique : frais de livraison selon distance, poids, type de véhicule, règles paramétrables (pricing_rules).",
       "payment_invoicing": "Paiement et facturation : Mobile Money, carte, paiement à la livraison ; génération de factures PDF et reversement aux vendeurs.",
       "realtime_tracking": "Suivi en temps réel : statuts des commandes et livraisons, position du livreur, notifications push et webhook.",
-      "api_webhooks": "API documentée et gestion des webhooks : logs des échanges, intégration de partenaires externes, tableau de bord admin."
+      "api_webhooks": "API documentée et gestion des webhooks : logs des échanges, intégration de partenaires externes, tableau de bord admin.",
+      "delivery_mobile_detailed_desc": "La partie mobile de l’application de livraison permet aux différents acteurs d’utiliser la plateforme depuis un smartphone. Elle s’adresse principalement aux clients, aux vendeurs (commerces, restaurants, pharmacies, etc.) et aux livreurs. L’application mobile donne au client la possibilité de parcourir les commerces, commander des produits, payer et suivre sa livraison en temps réel. Le vendeur peut gérer ses produits, ses commandes et initier des demandes de livraison. Le livreur reçoit les missions, accepte les livraisons et met à jour leur statut. L’ensemble s’appuie sur l’API backend pour l’authentification, la géolocalisation, les notifications et le suivi des livraisons.",
+      "multi_role_account": "Compte multi-rôles : inscription et connexion pour clients, vendeurs et livreurs, avec validation manuelle des comptes professionnels par l’admin.",
+      "client_addresses": "Gestion des adresses client : enregistrement de plusieurs adresses (domicile, bureau, etc.) pour faciliter les commandes et la géolocalisation.",
+      "vendor_product_catalog": "Catalogue des vendeurs et produits : navigation par catégories et sous-catégories de commerces, consultation des produits disponibles.",
+      "cart_and_ordering": "Commande et panier : sélection de produits auprès d’un vendeur unique, création de commande et déclenchement automatique d’une livraison.",
+      "mobile_payment": "Paiement mobile : paiement via Mobile Money ou carte, avec option de paiement à la livraison selon la configuration.",
+      "realtime_tracking": "Suivi en temps réel : consultation du statut de la commande et de la position du livreur pendant la livraison.",
+      "push_notifications": "Notifications push : réception des mises à jour de commande, de livraison et des missions pour les livreurs.",
+      "vendor_mobile_space": "Espace vendeur mobile : gestion des produits, suivi des commandes et demande de livraison externe via formulaire.",
+      "driver_mobile_space": "Espace livreur mobile : réception des missions, acceptation ou refus, mise à jour du statut (en route, livré) et géolocalisation.",
+      "history_and_ratings": "Historique et notation : consultation de l’historique des commandes/livraisons et notation du vendeur ou du livreur après réception."
     
-  
-  
-  
-
-  
-  
-  
-
 
 
 }
