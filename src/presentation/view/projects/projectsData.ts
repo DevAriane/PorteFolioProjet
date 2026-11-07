@@ -68,6 +68,13 @@ export const projectsData: ProjectItem[] = [
   galery:[
 resa,resa1,resa2,resa3,resa4,resa5
   ],
+    serviceLinks: [
+      { name: 'JavaScript', url: '' },
+      { name: 'React Native', url: '' },
+      { name: 'Expo go', url: '' },
+      { name: 'Firebase', url: '' },
+      { name: 'Redux', url: '' }
+    ],
     company:"COMPANY",
     tags: ['React Native', 'Redux', 'MySQL'],
     accentColor: 'from-[#0052FF]/20 to-purple-600/20',
@@ -179,7 +186,13 @@ delivery1,delivery2,delivery3
         textKey:'api_webhooks'
       },
 
-    ]
+    ],
+    serviceLinks: [
+      { name: 'Laravel', url: '' },
+      { name: 'Livewire', url: '' },
+      { name: 'MySql', url: '' },
+       { name: 'PHP', url: '' }
+    ],
   },
   {
     id: 'mamacare_frontend',
@@ -196,6 +209,8 @@ delivery1,delivery2,delivery3
     hasFigma: true,
     apk:'https://drive.google.com/file/d/1ZNZ4Gptm4n48MNPdZPWvNXr2x8tH5Ki8/view?usp=sharing',
     serviceLinks: [
+      { name: 'React Native', url: '' },
+       { name: 'TypeScript', url: '' },
       { name: 'Jira Board', url: 'https://jira.atlassian.net/' },
       { name: 'MongoDB Atlas', url: 'https://cloud.mongodb.com/v2/69fa8e001f2aeda491524334#/clusters' },
       { name: 'Firebase Auth', url: 'https://console.firebase.google.com/u/0/project/mamacare-15a8c/settings/general/android:com.mamacare' },
@@ -260,6 +275,10 @@ delivery1,delivery2,delivery3
       url: "https://gitlab.com/mamacare/mamacare_backend",
       icon: "gitlab"
     },
+     { name: 'Laravel', url: '' },
+      { name: 'PHP', url: '' },
+       { name: 'MongoDB', url: '' },
+       
       { name: 'Jira Board', url: 'https://jira.atlassian.net/' },
       { name: 'MongoDB Atlas', url: 'https://cloud.mongodbcomv269fa8e001f2aeda491524334#clusters' },
       { name: 'Firebase Auth', url: 'https:/consolefirebasegooglecomu0projectmamacare-15a8csettings/general/android:com.mamacare' },
@@ -311,6 +330,12 @@ accentColor: 'from-[#163F3A]/30 to-[#54D3C2]/30',
       stayora1,stayora2,stayora3,stayora4,stayora5,
   ],
    logo:stayora ,
+     serviceLinks: [
+      { name: 'Dart', url: '' },
+      { name: 'Flutter', url: '' },
+      { name: 'Get X', url: '' },
+       { name: 'Object Box', url: '' }
+    ],
    fonction:[
     {
       id:"1",
@@ -413,7 +438,13 @@ accentColor: 'from-[#163F3A]/30 to-[#54D3C2]/30',
       id:"10",
       textKey:'history_and_ratings'
     },
-   ]
+   ],
+     serviceLinks: [
+      { name: 'JavaScript', url: '' },
+      { name: 'React Native', url: '' },
+      { name: 'Node js ', url: '' },
+       { name: 'Firebase', url: '' }
+    ],
   },
   {
   id: "foodly-kitchen-01",
@@ -435,12 +466,26 @@ accentColor: 'from-[#163F3A]/30 to-[#54D3C2]/30',
       url: "https://order-estaurant-manage.vercel.app",
       icon: "globe"
     },
+     {
+      name: "Vue.js",
+      url: ""
+    },
+    {
+      name: "Pinia",
+      url: ""
+    },
+    {
+      name: "TypeScript",
+      url: ""
+    },
     {
       name: "GitHub Repository",
       url: "https://github.com/arianejuanita-lgtm/Order-estaurant-manage",
       icon: "github"
-    }
+    },
+
   ],
+  
   company: "OWNER",
   webUrl:"https://order-estaurant-manage.vercel.app",
 
@@ -521,6 +566,18 @@ date:"30/09/2026",
       name: "GitHub Repository",
       url: "https://github.com/arianejuanita-lgtm/Depense-",
       icon: "github"
+    },
+    {
+      name: "Vue.js",
+      url: ""
+    },
+    {
+      name: "Pinia",
+      url: ""
+    },
+    {
+      name: "TypeScript",
+      url: ""
     }
   ],
   company: "OWNER",
