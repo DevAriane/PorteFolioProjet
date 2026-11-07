@@ -42,7 +42,7 @@
     "boolean": {
       "title": "Full-Stack Development & Quality Assurance",
       "company": "LD GROUP — Douala, Cameroon",
-      "period": "May 2026 – October 2026",
+      "period": "01 May 2026 – 30 September 2026",
       "role": "Full-Stack Developer Intern | Test & QA",
       "summary": "Functional testing, bug tracking, client deployment, UI enhancement, and technical support.",
       "context": "Boolean Pro is a web and mobile solution where I contributed to development, quality assurance, deployment, and user support.",
@@ -55,7 +55,7 @@
     "resandpay": {
       "title": "Restaurant Module Integration",
       "company": "KMSS — Douala, Cameroon",
-      "period": "Since March 2026",
+      "period": "05 Jannuary 2026 - 30 Avril 2026",
       "role": "Mobile Full-Stack Developer Intern",
       "summary": "Integration of a new restaurant microservice, multi-universe navigation, and REST API consumption.",
       "context": "Evolution of the ResandPay application through the integration of a new restaurant-focused microservice into the existing mobile ecosystem.",
@@ -68,7 +68,7 @@
     "delivery": {
       "title": "Delivery App — Backend & REST API",
       "company": "KM Solution SARL — Douala, Cameroon",
-      "period": "July 2025 – February 2026",
+      "period": "12 July 2025 - 20 December 2025 ",
       "role": "Full-Stack Developer Intern",
       "summary": "Laravel backend development, REST API design for vendors/drivers, and integration testing with Postman.",
       "context": "Backend development for a delivery application managing multiple stakeholders in the logistics process.",
@@ -252,7 +252,23 @@
     "integrated_payment": "Integrated payment: reuses the existing useBookingPayment hook; handles the zero-total reservation case without payment processing.",
     "order_tracking": "Order tracking: screen listing orders with their status (PENDING, PREPARING, READY) and a cancellation option only if permitted by status.",
     "realtime_notifications": "Real-time notifications: receiving updates via Firebase Cloud Messaging, transforming them into readable messages, and deep linking to order details.",
-    "business_rules_history": "Business rules and history: blocking universe switching if a booking is active, preventing mixed restaurant carts, and integrating restaurant order history into the user's global profile."
+    "business_rules_history": "Business rules and history: blocking universe switching if a booking is active, preventing mixed restaurant carts, and integrating restaurant order history into the user's global profile.",
+    "delivery_backend": "Delivery application backend",
+    "user_management_api": "API and management system for users, vendors, products, orders, and deliveries featuring smart driver assignment.",
+    "delivery_backend_detailed_desc": "The delivery application backend is a REST API designed to handle all logistical and commercial flows of the platform. It relies on a role and permission system (admin, vendor, delivery_agent, client) with manual validation for professional accounts. It manages vendors (restaurants, pharmacies, supermarkets, etc.) and their products, with a hierarchical classification by types and subtypes. Customer orders are tied to a single vendor and automatically trigger a delivery. External deliveries (via API or manual form) are also supported. Driver assignment follows three strategies: automatic (dispatch), manual (admin), or semi-automatic (assisted suggestion). Pricing is dynamically calculated based on distance, weight, vehicle type, and configurable rules. The system handles payments, PDF invoicing, webhook notifications for external partners, and real-time delivery tracking.",
+    "user_management": "Multi-role user management: admin, vendor, delivery_agent, client with manual validation for professional accounts.",
+      "vendor_management": "Vendor management: creation, validation, typing (restaurant, pharmacy, etc.), subtypes, and API profiles for external partners.",
+      "product_classification": "Product classification: administered categories, visibility (draft, published, disabled), options, and variants.",
+      "customer_orders": "Customer orders: creation tied to a single vendor, automatically triggering a delivery.",
+      "external_deliveries": "External deliveries: via API or manual form, with automatic fee calculation and webhook notifications.",
+      "driver_assignment": "Driver assignment: automatic dispatch mode, manual by admin, or assisted suggestion (shortlist based on performance and proximity).",
+      "dynamic_pricing": "Dynamic pricing: delivery fees based on distance, weight, vehicle type, and configurable rules (pricing_rules).",
+      "payment_invoicing": "Payment and invoicing: Mobile Money, card, cash on delivery; generation of PDF invoices and payouts to vendors.",
+      "realtime_tracking": "Real-time tracking: order and delivery statuses, driver location, push notifications, and webhooks.",
+      "api_webhooks": "Documented API and webhook management: exchange logs, external partner integration, and admin dashboard."
+    
+  
+  
   
 
 

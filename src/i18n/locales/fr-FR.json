@@ -42,7 +42,7 @@
     "boolean": {
       "title": "Développement Full-Stack & Assurance Qualité",
       "company": "LD GROUP — Douala, Cameroun",
-      "period": "Mai 2026 – Octobre 2026",
+      "period": "01 Mai 2026 – 30 Septembre 2026",
       "role": "Stagiaire Développeuse Full-Stack | Test & QA",
       "summary": "Tests fonctionnels, identification d’anomalies, déploiement client, amélioration des interfaces et support technique.",
       "context": "Boolean Pro est une solution web et mobile pour laquelle j’ai participé à la fois aux activités de développement, d’assurance qualité, de déploiement et d’assistance aux utilisateurs.",
@@ -55,7 +55,7 @@
     "resandpay": {
       "title": "Intégration du module de restauration",
       "company": "KMSS — Douala, Cameroun",
-      "period": "Depuis Mars 2026",
+      "period": "05 Janvier 2026 - 30 Avril 2026",
       "role": "Stagiaire Développeuse Full-Stack Mobile",
       "summary": "Intégration d’un nouveau microservice de restauration, navigation multi-univers et consommation d'API REST.",
       "context": "Évolution de l’application ResandPay avec l’intégration d’un nouveau microservice dédié à la restauration au sein de l’écosystème mobile existant.",
@@ -68,7 +68,7 @@
     "delivery": {
       "title": "Application de livraison — Backend & API REST",
       "company": "KM Solution SARL — Douala, Cameroun",
-      "period": "Juillet 2025 – Février 2026",
+      "period": "12 Juillet 2025 – 20 Decembre 2025",
       "role": "Stagiaire Développeuse Full-Stack",
       "summary": "Développement backend sous Laravel, conception d'API REST pour vendeurs/livreurs et tests d'intégration avec Postman.",
       "context": "Développement du backend d'une application de livraison nécessitant la gestion des différents acteurs du processus logistique.",
@@ -239,7 +239,34 @@
     "verification_coherence_donnees": "Vérification de la cohérence des données échangées entre les services.",
     "keyfeature":"Quelques fonctionnalités de l'application",
     
-  "resandpay_restaurant_desc": "Le projet consiste à intégrer un module de restauration au sein de l’application existante ResAndPay, sous la forme d’un « App-in-App ». Concrètement, l’utilisateur reste dans la même application mobile mais peut basculer entre deux univers distincts : l’univers Restauration (nouveau) et l’univers ResAndPay (existant). Cette bascule se fait via un commutateur visuel (segmented control) affiché en haut de l’écran. L’objectif est d’offrir une expérience fluide de commande et de réservation de restaurant sans quitter l’application. L’utilisateur peut parcourir une liste de restaurants, consulter leurs menus, ajouter des plats à un panier, réserver une table, payer et suivre l’état de sa commande. Le module réutilise l’infrastructure de paiement et de notifications déjà présente dans ResAndPay, garantissant une intégration rapide et cohérente. La charte graphique est blanche avec des accents verts, propre à l’univers restauration."
+  "resandpay_restaurant_desc": "Le projet consiste à intégrer un module de restauration au sein de l’application existante ResAndPay, sous la forme d’un « App-in-App ». Concrètement, l’utilisateur reste dans la même application mobile mais peut basculer entre deux univers distincts : l’univers Restauration (nouveau) et l’univers ResAndPay (existant). Cette bascule se fait via un commutateur visuel (segmented control) affiché en haut de l’écran. L’objectif est d’offrir une expérience fluide de commande et de réservation de restaurant sans quitter l’application. L’utilisateur peut parcourir une liste de restaurants, consulter leurs menus, ajouter des plats à un panier, réserver une table, payer et suivre l’état de sa commande. Le module réutilise l’infrastructure de paiement et de notifications déjà présente dans ResAndPay, garantissant une intégration rapide et cohérente. La charte graphique est blanche avec des accents verts, propre à l’univers restauration.",
+  "universe_switch": "Bascule entre univers : un commutateur visuel permet de passer de l’univers ResAndPay à l’univers Restauration, avec blocage si un booking voyage est actif.",
+    "dedicated_navigation": "Navigation dédiée : un bottom tab navigator propre à la restauration (Accueil, Détail, Panier, Commandes) pour une expérience fluide et autonome.",
+    "restaurants_discovery": "Découverte des restaurants : écran d’accueil avec carrousel de promotions, grille de catégories et liste de restaurants (image, note, temps de retrait).",
+    "menu_consultation": "Consultation des menus : page détail avec header réductible, menu organisé par catégories et ajout des plats au panier en un clic.",
+    "cart_management": "Gestion du panier : ajout/suppression/modification d’articles via Redux, avec interdiction de mélanger plusieurs restaurants dans un même panier.",
+    "table_booking": "Réservation de table : modale avec sélecteur de date/heure et nombre de places, possibilité de réserver sans commander de plats.",
+    "integrated_payment": "Paiement intégré : réutilisation du hook useBookingPayment existant ; gestion du cas réservation seule (total nul) sans paiement.",
+    "order_tracking": "Suivi des commandes : écran listant les commandes avec leur statut (PENDING, PREPARING, READY) et possibilité d’annuler uniquement si le statut le permet.",
+    "realtime_notifications": "Notifications en temps réel : réception des mises à jour via Firebase Cloud Messaging, transformation en messages lisibles et deep linking vers le détail de la commande.",
+    "business_rules_history": "Règles métier et historique : blocage du changement d’univers si booking actif, pas de mélange de restaurants, et intégration de l’historique des commandes restaurant dans le profil global de l’utilisateur.",
+    "delivery_backend": "Backend de l'application de livraison",
+    "user_management_api": "API et système de gestion des utilisateurs, vendeurs, produits, commandes et livraisons avec assignation intelligente des livreurs.",
+    "delivery_backend_detailed_desc": "Le backend de l'application de livraison est une API REST conçue pour gérer l'ensemble des flux logistiques et commerciaux de la plateforme. Il repose sur un système de rôles et permissions (admin, vendor, delivery_agent, client) avec validation manuelle des comptes professionnels. Il gère les vendeurs (restaurants, pharmacies, supermarchés, etc.) et leurs produits, avec une classification hiérarchique par types et sous-types. Les commandes clients sont liées à un vendeur unique et déclenchent automatiquement une livraison. Les livraisons externes (via API ou formulaire manuel) sont également supportées. L'assignation des livreurs suit trois stratégies : automatique (dispatch), manuelle (admin) ou semi-automatique (suggestion assistée). La tarification est calculée dynamiquement selon la distance, le poids, le type de véhicule et des règles paramétrables. Le système gère les paiements, la facturation PDF, les notifications webhook pour les partenaires externes, et un suivi en temps réel des livraisons.",
+    "user_management": "Gestion des utilisateurs multi-rôles : admin, vendor, delivery_agent, client avec validation manuelle des comptes professionnels.",
+      "vendor_management": "Gestion des vendeurs : création, validation, typage (restaurant, pharmacie, etc.), sous-types, et profils API pour partenaires externes.",
+      "product_classification": "Classification des produits : catégories administrées, visibilité (draft, published, disabled), options et variantes.",
+      "customer_orders": "Commandes clients : création liée à un vendeur unique, déclenchement automatique d’une livraison.",
+      "external_deliveries": "Livraisons externes : via API ou formulaire manuel, avec calcul automatique des frais et notifications webhook.",
+      "driver_assignment": "Assignation des livreurs : mode dispatch automatique, manuel par admin, ou suggestion assistée (shortlist basée sur performance et proximité).",
+      "dynamic_pricing": "Tarification dynamique : frais de livraison selon distance, poids, type de véhicule, règles paramétrables (pricing_rules).",
+      "payment_invoicing": "Paiement et facturation : Mobile Money, carte, paiement à la livraison ; génération de factures PDF et reversement aux vendeurs.",
+      "realtime_tracking": "Suivi en temps réel : statuts des commandes et livraisons, position du livreur, notifications push et webhook.",
+      "api_webhooks": "API documentée et gestion des webhooks : logs des échanges, intégration de partenaires externes, tableau de bord admin."
+    
+  
+  
+  
 
   
   

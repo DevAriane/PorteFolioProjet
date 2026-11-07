@@ -41,6 +41,11 @@ import resa2 from '../../../assets/resa2.jpeg';
 import resa3 from '../../../assets/resa3.jpeg';
 import resa4 from '../../../assets/resa4.jpeg';
 import resa5 from '../../../assets/resa5.jpeg';
+import delivery1 from '../../../assets/delivery1.png';
+import delivery2 from '../../../assets/delivery2.png';
+import delivery3 from '../../../assets/delivery3.png';
+
+
 
 export const projectsData: ProjectItem[] = [
   {
@@ -53,6 +58,7 @@ export const projectsData: ProjectItem[] = [
     architecture: ['App-in-App (Dual-Core)', 'Microservices'],
     database: ['MySQL', 'Firebase Realtime'],
     cloudDevOps: [],
+    date:'30/04/2026',
     platform: 'Full-Stack',
     hasFigma: true,
   galery:[
@@ -109,9 +115,9 @@ resa,resa1,resa2,resa3,resa4,resa5
   },
     {
     id: 'backend_livraison',
-    titleKey: '',
-    descKey: '',
-    longDescKey: '',
+    titleKey: 'delivery_backend',
+    descKey: 'user_management_api',
+    longDescKey: 'delivery_backend_detailed_desc',
     language: 'PHP',
     frameworks: ['Laravel', 'Livewire'],
     architecture: ['MVC'],
@@ -119,13 +125,57 @@ resa,resa1,resa2,resa3,resa4,resa5
     cloudDevOps: [],
     platform: 'Backend',
     hasFigma: true,
+    date:"20/12/2025",
   galery:[
-resa,resa1,resa2,resa3,resa4,resa5
+delivery1,delivery2,delivery3
   ],
     company:"COMPANY",
     tags: ['React Native', 'Redux', 'MySQL'],
     accentColor: 'from-[#0052FF]/20 to-purple-600/20',
-    logo:logoResa
+    logo:logoResa,
+    fonction:[
+      {
+        id:'1',
+        textKey:'user_management'
+      },
+      {
+        id:'2',
+        textKey:'vendor_management'
+      },
+       {
+        id:'3',
+        textKey:'product_classification'
+      },
+      {
+        id:'4',
+        textKey:'customer_orders'
+      },
+       {
+        id:'5',
+        textKey:'external_deliveries'
+      },
+      {
+        id:'6',
+        textKey:'driver_assignment'
+      },
+      {
+        id:'7',
+        textKey:'dynamic_pricing'
+      },
+      {
+        id:'8',
+        textKey:'payment_invoicing'
+      },
+       {
+        id:'9',
+        textKey:'realtime_tracking'
+      },
+      {
+        id:'10',
+        textKey:'api_webhooks'
+      },
+
+    ]
   },
   {
     id: 'mamacare_frontend',
@@ -138,6 +188,7 @@ resa,resa1,resa2,resa3,resa4,resa5
     database: ['MongoDB Atlas'],
     cloudDevOps: ['Render', 'GitLab CI/CD'],
     platform: 'Mobile',
+    date:"30/07/2026",
     hasFigma: true,
     apk:'https://drive.google.com/file/d/1ZNZ4Gptm4n48MNPdZPWvNXr2x8tH5Ki8/view?usp=sharing',
     serviceLinks: [
@@ -191,6 +242,7 @@ resa,resa1,resa2,resa3,resa4,resa5
     database: ['MongoDB Atlas'],
     cloudDevOps: ['Render', 'GitLab CI/CD'],
     platform: 'Web',
+    date:"30/07/2026",
     hasFigma: true,
      webUrl:'https://mamacare-backend-xyhh.onrender.com',
     serviceLinks: [
@@ -246,6 +298,7 @@ resa,resa1,resa2,resa3,resa4,resa5
     database: ['Node.JS'],
     cloudDevOps: ['Github'],
     platform: 'Mobile',
+    date:'30/04/2025',
     hasFigma: true,
    apk:'https://expo.dev/accounts/ariane_ateumo/projects/projet/builds/32c93ecb-03b7-4d05-b1b6-5756887ce524',
     company:"OWNER",
@@ -269,7 +322,7 @@ resa,resa1,resa2,resa3,resa4,resa5
   cloudDevOps: ["Vercel"],
   platform: "Web",
   hasFigma: false,
-
+    date:'30/09/2026',
   serviceLinks: [
     {
       name: "Live Demo",
@@ -308,7 +361,7 @@ resa,resa1,resa2,resa3,resa4,resa5
   cloudDevOps: ["Vercel"],
   platform: "Web",
   hasFigma: false,
-
+date:"30/09/2026",
   serviceLinks: [
     {
       name: "Live Demo",
