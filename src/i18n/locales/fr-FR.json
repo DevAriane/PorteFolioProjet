@@ -237,7 +237,10 @@
     "gestion_roles_autorisations": "Gestion des rôles et des autorisations d'accès aux données.",
     "tests_api_postman": "Réalisation de tests fonctionnels et tests d'intégration des API avec Postman.",
     "verification_coherence_donnees": "Vérification de la cohérence des données échangées entre les services.",
-    "keyfeature":"Quelques fonctionnalités de l'application"
+    "keyfeature":"Quelques fonctionnalités de l'application",
+    
+  "resandpay_restaurant_desc": "Le projet consiste à intégrer un module de restauration au sein de l’application existante ResAndPay, sous la forme d’un « App-in-App ». Concrètement, l’utilisateur reste dans la même application mobile mais peut basculer entre deux univers distincts : l’univers Restauration (nouveau) et l’univers ResAndPay (existant). Cette bascule se fait via un commutateur visuel (segmented control) affiché en haut de l’écran. L’objectif est d’offrir une expérience fluide de commande et de réservation de restaurant sans quitter l’application. L’utilisateur peut parcourir une liste de restaurants, consulter leurs menus, ajouter des plats à un panier, réserver une table, payer et suivre l’état de sa commande. Le module réutilise l’infrastructure de paiement et de notifications déjà présente dans ResAndPay, garantissant une intégration rapide et cohérente. La charte graphique est blanche avec des accents verts, propre à l’univers restauration."
+
   
   
   

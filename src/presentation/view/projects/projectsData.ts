@@ -47,7 +47,7 @@ export const projectsData: ProjectItem[] = [
     id: 'resandpay',
     titleKey: 'project_resandpay_title',
     descKey: 'project_resandpay_desc',
-    longDescKey: 'project_resandpay_long',
+    longDescKey: 'resandpay_restaurant_desc',
     language: 'TypeScript',
     frameworks: ['React Native', 'Redux'],
     architecture: ['App-in-App (Dual-Core)', 'Microservices'],
@@ -61,7 +61,51 @@ resa,resa1,resa2,resa3,resa4,resa5
     company:"COMPANY",
     tags: ['React Native', 'Redux', 'MySQL'],
     accentColor: 'from-[#0052FF]/20 to-purple-600/20',
-    logo:logoResa
+    logo:logoResa,
+    fonction:[
+      {
+        id:"1",
+        textKey:'universe_switch'
+      },
+       {
+        id:"2",
+        textKey:'dedicated_navigation'
+      },
+      {
+        id:"3",
+        textKey:'restaurants_discovery'
+      },
+       {
+        id:"4",
+        textKey:'menu_consultation'
+      },
+      {
+        id:"5",
+        textKey:'cart_management'
+      },
+         {
+        id:"6",
+        textKey:'table_booking'
+      },
+      {
+        id:"7",
+        textKey:'integrated_payment'
+      },
+        {
+        id:"8",
+        textKey:'order_tracking'
+      },
+       {
+        id:"9",
+        textKey:'realtime_notifications'
+      },
+       {
+        id:"10",
+        textKey:'business_rules_history'
+      }
+
+
+    ]
   },
     {
     id: 'backend_livraison',

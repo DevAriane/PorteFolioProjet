@@ -240,7 +240,21 @@
     "gestion_roles_autorisations": "Management of roles and data access permissions.",
     "tests_api_postman": "Execution of functional tests and API integration tests using Postman.",
     "verification_coherence_donnees": "Verification of the consistency of data exchanged between services.",
-        "keyfeature":"Key Application Features"
+        "keyfeature":"Key Application Features",
+        
+  "resandpay_restaurant_desc": "The project consists of integrating a restaurant module within the existing ResAndPay application as an 'App-in-App'. Specifically, the user remains within the same mobile application but can switch between two distinct universes: the Restaurant universe (new) and the ResAndPay universe (existing). This switch is done via a visual toggle (segmented control) displayed at the top of the screen. The goal is to offer a seamless restaurant ordering and reservation experience without leaving the application. Users can browse a list of restaurants, view their menus, add dishes to a cart, book a table, pay, and track their order status. The module reuses the payment and notification infrastructure already present in ResAndPay, ensuring fast and consistent integration. The visual identity features a white theme with green accents, specific to the restaurant universe.",
+  "universe_switch": "Universe switching: a visual toggle allows switching from the ResAndPay universe to the Restaurant universe, with a blocker if an active travel booking exists.",
+    "dedicated_navigation": "Dedicated navigation: a restaurant-specific bottom tab navigator (Home, Detail, Cart, Orders) for a smooth and independent experience.",
+    "restaurants_discovery": "Restaurant discovery: home screen featuring a promotional carousel, category grid, and restaurant list (image, rating, pickup time).",
+    "menu_consultation": "Menu browsing: detail page with a collapsible header, category-organized menu, and one-click item addition to the cart.",
+    "cart_management": "Cart management: adding, removing, and modifying items via Redux, with a restriction against mixing multiple restaurants in a single cart.",
+    "table_booking": "Table reservation: modal with date/time picker and guest count, with the option to book without ordering food.",
+    "integrated_payment": "Integrated payment: reuses the existing useBookingPayment hook; handles the zero-total reservation case without payment processing.",
+    "order_tracking": "Order tracking: screen listing orders with their status (PENDING, PREPARING, READY) and a cancellation option only if permitted by status.",
+    "realtime_notifications": "Real-time notifications: receiving updates via Firebase Cloud Messaging, transforming them into readable messages, and deep linking to order details.",
+    "business_rules_history": "Business rules and history: blocking universe switching if a booking is active, preventing mixed restaurant carts, and integrating restaurant order history into the user's global profile."
+  
+
 
   
   
