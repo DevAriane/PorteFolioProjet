@@ -298,7 +298,21 @@
       "table_sorting": "Table sorting: option to sort expenses by date or amount (bonus).",
       "dark_mode": "Dark mode: optional dark theme available (bonus).",
       "form_validation": "Form validation: use Vee-Validate and Zod to secure user input.",
-      "modular_architecture": "Modular architecture: application structured into reusable components with Vue Router for navigation."
+      "modular_architecture": "Modular architecture: application structured into reusable components with Vue Router for navigation.",
+      "stayora_detailed_desc": "Stayora is a mobile hotel booking application built with Flutter. It allows users to browse a list of hotels, search by location or name, manage a favorites list, select booking dates, and review their reservation history. The project emphasizes a modular architecture and the exploration of multiple state management and local persistence solutions: Provider, GetX, and ObjectBox. It is structured around clear folders (controllers, data, models, pages, services, widgets) and showcases technical progression through four documented challenges.",
+      "stayora_summary": "Flutter mobile hotel booking application featuring search, favorites, date selection, and reservation history. The project demonstrates the use of Provider, GetX, and ObjectBox for state management and local persistence.",
+      "hotel_browsing_search": "- Hotel browsing and search: view hotel listings and search by location or name on a dedicated screen (SearchResultsPage) with dynamic filtering.",
+      "favorites_management": "- Favorites management: add and remove favorite hotels using an interactive heart button, initially with Provider (ChangeNotifier) and migrated to GetX for reactive updates without notifyListeners.",
+      "date_selection_booking": "- Date selection and booking: select stay dates and record reservations with persistent storage.",
+      "booking_history": "- Booking history: MyBookingsPage screen displaying reservations sorted by date.",
+      "objectbox_persistence": "- Local persistence with ObjectBox: store favorites (FavoriteEntity) and reservations (BookingEntity) in a local database with full CRUD support and build_runner code generation.",
+      "getx_navigation": "- Modern navigation with GetX: use GetMaterialApp, Get.to(), Get.back(), and Get.find() for streamlined routing and reactive state management (Obx, .obs).",
+      "provider_state_management": "- State management with Provider: demonstration of shared state using ChangeNotifier and Set to prevent duplicate entries in favorites.",
+      "advanced_search": "- Advanced search with TextEditingController: filter hotel listings by title or location, handle empty search states, and manage parameterized screen navigation.",
+      "modular_reactive_ui": "- Modular and reactive UI: reusable components (HotelCard, SearchSection, etc.) with a clean architecture separating business logic, services, and presentation."
+    
+  
+  
     
   
     

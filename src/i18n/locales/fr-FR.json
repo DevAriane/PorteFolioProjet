@@ -273,7 +273,34 @@
       "modular_architecture": "Architecture modulaire et évolutive : séparation claire entre les entités de domaine, la logique de présentation (stores, vues) et le routeur, facilitant la maintenance et l'ajout de nouvelles fonctionnalités.",
       "reactive_interface": "Interface réactive : utilisation de Vue 3 et Vite pour une expérience utilisateur fluide et un développement rapide.",
       "static_typing": "Typage statique : TypeScript pour une meilleure fiabilité du code et une détection précoce des erreurs.",
-      "modern_project_structure": "Structure de projet moderne : organisation par dossiers assets, data, domain/entities, presentation (stores et views), router et rxBD, adaptée à une application métier complexe."
+      "modern_project_structure": "Structure de projet moderne : organisation par dossiers assets, data, domain/entities, presentation (stores et views), router et rxBD, adaptée à une application métier complexe.",
+      "depense_app_desc": "Depense- est une mini-application web de suivi des dépenses personnelles, développée avec Vue 3, TypeScript et Tailwind CSS. Elle permet à l’utilisateur d’enregistrer ses dépenses, de les consulter, de les filtrer et de visualiser le total de son budget. L’application met l’accent sur une interface moderne construite avec Shadcn-Vue et une gestion d’état centralisée via Pinia. Les données sont persistées dans le LocalStorage pour être conservées après rechargement de la page.",
+      "add_expense": "Ajout de dépenses : enregistrement d’une dépense avec libellé, montant, catégorie (alimentation, transport, loisirs, logement, autre) et date.",
+      "expense_list": "Liste des dépenses : affichage dans un tableau avec les montants formatés.",
+      "delete_with_confirmation": "Suppression avec confirmation : suppression d’une dépense après validation par l’utilisateur.",
+      "automatic_totals": "Totaux automatiques : affichage du total général et du total par catégorie.",
+      "filtering_and_search": "Filtrage et recherche : filtrage des dépenses par catégorie et recherche par libellé.",
+      "data_persistence": "Persistance des données : les dépenses sont conservées après un rechargement de la page grâce à Pinia Plugin Persistedstate et LocalStorage.",
+      "table_sorting": "Tri du tableau : possibilité de trier les dépenses par date ou par montant (bonus).",
+      "dark_mode": "Mode sombre : thème sombre disponible en option (bonus).",
+      "form_validation": "Validation de formulaires : utilisation de Vee-Validate et Zod pour sécuriser la saisie.",
+      "modular_architecture": "Architecture modulaire : application découpée en plusieurs composants réutilisables avec Vue Router pour la navigation.",
+      "stayora_detailed_desc": "Stayora est une application mobile de réservation d’hôtel développée avec Flutter. Elle permet à l’utilisateur de parcourir une liste d’hôtels, d’effectuer une recherche par lieu ou par nom, de gérer une liste de favoris, de sélectionner des dates pour réserver et de consulter l’historique de ses réservations. Le projet met l’accent sur une architecture modulaire et l’apprentissage de plusieurs solutions de gestion d’état et de persistance locale : Provider, GetX et ObjectBox. Il est structuré autour de dossiers clairs (controllers, data, models, pages, services, widgets) et illustre une progression technique à travers quatre défis documentés.",
+      "stayora_summary": "Application mobile de réservation d’hôtel en Flutter, intégrant recherche, favoris, sélection de dates et historique des réservations. Le projet illustre l’usage de Provider, GetX et ObjectBox pour la gestion d’état et la persistance locale.",
+      "hotel_browsing_search": "- Parcours et recherche d’hôtels : consultation de la liste des hôtels et recherche par lieu ou par nom via un écran dédié (SearchResultsPage) avec filtrage dynamique.",
+      "favorites_management": "- Gestion des favoris : ajout et suppression d’hôtels favoris avec un bouton cœur interactif, initialement avec Provider (ChangeNotifier) puis migré vers GetX pour une réactivité sans notifyListeners.",
+      "date_selection_booking": "- Sélection de dates et réservation : choix des dates de séjour et enregistrement de la réservation, avec sauvegarde persistante.",
+      "booking_history": "- Historique des réservations : page MyBookingsPage affichant les réservations triées par date.",
+      "objectbox_persistence": "- Persistance locale avec ObjectBox : stockage des favoris (FavoriteEntity) et des réservations (BookingEntity) dans une base de données locale, avec CRUD complet et génération de code via build_runner.",
+      "getx_navigation": "- Navigation moderne avec GetX : utilisation de GetMaterialApp, Get.to(), Get.back() et Get.find() pour une navigation simplifiée et un état réactif (Obx, .obs).",
+      "provider_state_management": "- Gestion d’état avec Provider : démonstration d’un état partagé via ChangeNotifier et Set pour éviter les doublons dans les favoris.",
+      "advanced_search": "- Recherche avancée avec TextEditingController : filtrage de la liste des hôtels sur le titre ou le lieu, gestion du cas sans résultat et navigation paramétrée entre écrans.",
+      "modular_reactive_ui": "- Interface réactive et modulaire : composants réutilisables (HotelCard, SearchSection, etc.) et séparation claire entre la logique métier, les services et la présentation."
+    
+  
+  
+    
+  
     
   
     

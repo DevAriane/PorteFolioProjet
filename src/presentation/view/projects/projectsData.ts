@@ -44,8 +44,12 @@ import resa5 from '../../../assets/resa5.jpeg';
 import delivery1 from '../../../assets/delivery1.png';
 import delivery2 from '../../../assets/delivery2.png';
 import delivery3 from '../../../assets/delivery3.png';
-
-
+import stayora from '../../../assets/stayora.jpeg';
+import stayora1 from '../../../assets/stayora1.jpeg';
+import stayora2 from '../../../assets/stayora2.jpeg';
+import stayora3 from '../../../assets/stayora3.jpeg';
+import stayora4 from '../../../assets/stayora4.jpeg';
+import stayora5 from '../../../assets/stayora5.jpeg';
 
 export const projectsData: ProjectItem[] = [
   {
@@ -285,6 +289,66 @@ delivery1,delivery2,delivery3
     ],
     email:"admin@gmail.com",
     password:'admin2026'
+  },
+   {
+      id: 'Stayora',
+  titleKey: 'Stayora',
+  descKey: 'stayora_summary',
+  longDescKey: 'stayora_detailed_desc',
+    language: 'Dart',
+    frameworks: ['Flutter', 'Get X', 'ObjectBox'],
+    architecture: ['MVC'],
+    database: ['ObjectBox'],
+    cloudDevOps: ['Github'],
+    platform: 'Mobile',
+    date:'30/06/2026',
+    hasFigma: true,
+   apk:'https://drive.google.com/file/d/1aEFwE2V0bcmj_rKYS4_qZyHwgGIBG9xl/view?usp=sharing',
+    company:"OWNER",
+    tags: ['Flutter', 'Get X', 'ObjectBox', ],
+accentColor: 'from-[#163F3A]/30 to-[#54D3C2]/30',
+     galery: [
+      stayora1,stayora2,stayora3,stayora4,stayora5,
+  ],
+   logo:stayora ,
+   fonction:[
+    {
+      id:"1",
+      textKey:'hotel_browsing_search'
+    },
+     {
+      id:"2",
+      textKey:'favorites_management'
+    },
+     {
+      id:"3",
+      textKey:'date_selection_booking'
+    },
+     {
+      id:"4",
+      textKey:'booking_history'
+    },
+     {
+      id:"5",
+      textKey:'objectbox_persistence'
+    },
+     {
+      id:"6",
+      textKey:'getx_navigation'
+    },
+     {
+      id:"7",
+      textKey:'provider_state_management'
+    },
+    {
+      id:"8",
+      textKey:'advanced_search'
+    },
+     {
+      id:"9",
+      textKey:'modular_reactive_ui'
+    }
+   ]
   },
 
   {
